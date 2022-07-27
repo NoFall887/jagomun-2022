@@ -1,0 +1,105 @@
+@import url("./navbar.css");
+html {
+	position: relative;
+	overflow: scroll;
+	overflow-x: hidden;
+	}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #0D1D23 !important;
+}
+
+
+@font-face {
+    font-family: 'shandora_demoregular';
+    src: url('Font/shandora_demo-webfont.woff2') format('woff2'),
+         url('Font/shandora_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*home*/
+
+@media screen and (max-width: 575.98px) {
+  .maintitle .title1 h1 {
+  	font-size: 48px !important;
+  	line-height: 48px !important;
+  }
+  .maintitle .title2 h3 {
+  	font-size: 18px !important;
+  	line-height: 18px !important;
+  }
+}
+
+
+.maintitle .title1 {margin-top: 152px; float: left !important;}
+.maintitle .title2 {position: static !important; float: left !important;}
+
+
+
+
+/*Home*/
+.maintitle h1 {
+	font-weight: 600;
+	font-family: 'shandora_demoregular';
+	color: #D89F5C;
+	font-size: 52px;
+}
+
+.maintitle h2 {
+	font-weight: 400;
+	font-family: 'EB Garamond', serif;
+	color: #EDF5E0;
+	font-size: 32px;
+	line-height: 125%;
+}
+
+h3 {font-size: 32px !important;}
+h4 {font-size: 24px !important;}
+h5 {font-size: 16px !important;}
+
+p { 
+	font-family:  'EB Garamond', serif;
+	font-weight: 300;
+	color: #EDF5E0;
+	font-size: 24px;
+	line-height: 150%;
+}
+
+.date {
+
+}
+.date button {
+	color: #0D1D23;
+	padding: 16px 40px 16px 40px;
+	background-color: #EAC497;
+	font-family: 'EB Garamond', serif;
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: 48px;
+	border-radius: 0;	
+}
+
+.date button:hover {background-color: #D89F5C;}
+
+.date h3 {
+	font-weight: 400;
+	font-family: 'shandora_demoregular';
+	color: #EDF5E0;
+}
+.date .desc {margin-top: 48px;}
+footer {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	background-color: #333;
+	color: #fff;
+	padding-top: 38px;
+}
+
+footer p {font-size: 14px}
+
