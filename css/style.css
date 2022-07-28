@@ -1,4 +1,5 @@
 @import url("./navbar.css");
+@import url("./form.css");
 html {
 	position: relative;
 	overflow: scroll;
@@ -8,6 +9,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	padding-top: 100px;
 	background-color: #0D1D23 !important;
 }
 
@@ -34,6 +36,9 @@ body {
   }
 }
 
+.maintitle {
+	padding-top: 96px;
+}
 
 .maintitle .title1 {margin-top: 152px; float: left !important;}
 .maintitle .title2 {position: static !important; float: left !important;}
@@ -42,11 +47,11 @@ body {
 
 
 /*Home*/
-.maintitle h1 {
-	font-weight: 600;
+h1 {
+	font-weight: 600 !important;
 	font-family: 'shandora_demoregular';
 	color: #D89F5C;
-	font-size: 52px;
+	font-size: 52px !important;
 }
 
 .maintitle h2 {

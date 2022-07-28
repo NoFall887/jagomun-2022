@@ -26,18 +26,12 @@
 
 #navbar {
 	transition: 0.8s;
-	background-color: #FDF6F0;
+	background-color: #EDF5E0 !important;
 	opacity: 1;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 	padding: 16px 0px;
 }
 
-.navbarev {
-	transition: 0.3s;
-	background-color: #EDF5E0 !important;
-	opacity: 1;
-	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-}
 .identity{
  	font-family: 'shandora_demoregular';
 	font-size: 20px;
@@ -55,7 +49,7 @@
 .logo{width: 32px;}
 .line{margin-right:12px; margin-left: 12px; opacity: 100%}
 .navbar .nav-item a:hover {opacity: 100%;}
-.eventnav a {color: #0D1D23 !important;}
+/* .eventnav a {color: #0D1D23 !important;} */
 
 .home-link {
 	display: flex;
