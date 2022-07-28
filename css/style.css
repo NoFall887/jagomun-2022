@@ -74,10 +74,7 @@ p {
 	line-height: 150%;
 }
 
-.date {
-
-}
-.date button {
+.main-button {
 	color: #0D1D23;
 	padding: 16px 40px 16px 40px;
 	background-color: #EAC497;
@@ -86,9 +83,10 @@ p {
 	font-size: 20px;
 	margin-top: 48px;
 	border-radius: 0;	
+	transition: ease-in-out 0.3s;
 }
 
-.date button:hover {background-color: #D89F5C;}
+.main-button:hover {background-color: #D89F5C;}
 
 .date h3 {
 	font-weight: 400;

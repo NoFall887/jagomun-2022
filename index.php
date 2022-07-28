@@ -35,7 +35,7 @@
 
   <section class="date">
     <div class="container text-center">
-      <button class="btn d-flex mx-auto" type="button">Register Now</button>
+      <button class="btn d-flex mx-auto main-button" type="button">Register Now</button>
     </div>
     <div class="desc container">
       <div class="row justify-content-md-center">

@@ -18,12 +18,131 @@
 <body class="container text-center">
   <?php require "./components/navbar.php" ?>
   <h1 class="mt-4 mb-5">Delegate Aplication Form</h1>
-  <form class="text-start" action=<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?> method="POST">
-    <div class="form-floating mb-3">
-      <input type="text" class="form-control" id="name" name="name" placeholder="name@example.com">
-      <label for="name">Full name</label>
+  <form class="text-start" action=<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?> method="POST" id="registration-form">
+    <fieldset>
+      <legend class="mb-3">Delegate Information</legend>
+      <div class="form-floating mb-4">
+        <input type="text" class="form-control" id="name" name="name" placeholder="full name" required>
+        <label for="name">Full name</label>
+      </div>
+      <div class="form-floating mb-4">
+        <input type="date" class="form-control" id="dateOfBirth" name="dateOfBirth" placeholder="date of birth" required>
+        <label for="dateOfBirth">Date of Birth</label>
+      </div>
+      <div class="form-floating mb-4">
+        <input type="email" class="form-control" id="email" name="email" placeholder="email@example.com" required>
+        <label for="email">Email</label>
+      </div>
+      <div class="form-floating mb-4">
+        <input type="text" class="form-control" id="institution" name="institution" placeholder="institution" required>
+        <label for="address">Institution</label>
+      </div>
+      <div class="form-floating mb-4">
+        <input type="text" class="form-control" id="nationality" name="nationality" placeholder="nationality" required>
+        <label for="address">Nationality</label>
+      </div>
+      <div class="form-floating mb-4">
+        <input type="text" class="form-control" id="gender" name="gender" placeholder="gender" required>
+        <label for="address">Gender</label>
+      </div>
+      <!-- countrycode and phone number -->
+      <div class="row">
+        <div class="col-md-3">
+          <div class="form-floating mb-4">
+            <select class="form-select" aria-label="Country Code" id="countryCode" name="countryCode" required>
+              <?php require "./components/countryCodeOptions.php" ?>
+            </select>
+
+            <label for="countryCode">Country Code</label>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="form-floating mb-4 flex-grow-1">
+            <input type="number" class="form-control" id="phone" name="phone" placeholder="812345678" required>
+            <label for="phone">Phone Number (WhatsApp)</label>
+          </div>
+        </div>
+
+      </div>
+      <div class="form-floating mb-4">
+        <input type="text" class="form-control" id="address" name="address" placeholder="Address" required>
+        <label for="address">Address</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="mb-3">Council and Country Preference</legend>
+      <p class="disclaimer">*Disclaimer: UNEP and EU as the council preference will be held by online. UNSC and WHO as the council preference will be held by offline</p>
+
+      <div class="form-floating mb-4">
+        <select class="form-select" aria-label="First Council Preference" id="firstCouncil" name="firstCouncil" required>
+          <option value="" selected disabled></option>
+          <option value="UNEP (United Nations Environment Programme)">UNEP (United Nations Environment Programme)</option>
+          <option value="WHO (World Health Organization)">WHO (World Health Organization)</option>
+          <option value="EU (European Union)">EU (European Union)</option>
+          <option value="UNSC (United Nations Security Council)">UNSC (United Nations Security Council)</option>
+        </select>
+        <label for="firstCouncil">First Council Preference</label>
+      </div>
+      <div class="form-floating mb-4">
+        <input type="text" class="form-control" id="firstCountry" name="firstCountry" placeholder="first country" required>
+        <label for="firstCountry">First Country Preference</label>
+      </div>
+      <div class="form-floating mb-5">
+        <textarea class="form-control" placeholder="Reason for choosing" id="firstReason" name=firstReason" required></textarea>
+        <label for="firstReason">State your reason why you choose your first council preference</label>
+      </div>
+
+      <div class="form-floating mb-4">
+        <select class="form-select" aria-label="Second Council Preference" id="secondCouncil" name="secondCouncil" required>
+          <option value="" selected disabled></option>
+          <option value="UNEP (United Nations Environment Programme)">UNEP (United Nations Environment Programme)</option>
+          <option value="WHO (World Health Organization)">WHO (World Health Organization)</option>
+          <option value="EU (European Union)">EU (European Union)</option>
+          <option value="UNSC (United Nations Security Council)">UNSC (United Nations Security Council)</option>
+        </select>
+        <label for="secondCouncil">Second Council Preference</label>
+      </div>
+      <div class="form-floating mb-4">
+        <input type="text" class="form-control" id="secondCountry" name="secondCountry" placeholder="Second country" required>
+        <label for="secondCountry">Second Country Preference</label>
+      </div>
+      <div class="form-floating mb-5">
+        <textarea class="form-control" placeholder="Reason for choosing" id="firstReason" name=firstReason" required></textarea>
+        <label for="firstReason">State your reason why you choose your second council preference</label>
+      </div>
+
+      <div class="form-floating mb-4">
+        <select class="form-select" aria-label="Third Council Preference" id="thirdCouncil" name="thirdCouncil" required>
+          <option value="" selected disabled></option>
+          <option value="UNEP (United Nations Environment Programme)">UNEP (United Nations Environment Programme)</option>
+          <option value="WHO (World Health Organization)">WHO (World Health Organization)</option>
+          <option value="EU (European Union)">EU (European Union)</option>
+          <option value="UNSC (United Nations Security Council)">UNSC (United Nations Security Council)</option>
+        </select>
+        <label for="thirdCouncil">Third Council Preference</label>
+      </div>
+      <div class="form-floating mb-4">
+        <input type="text" class="form-control" id="thirdCountry" name="thirdCountry" placeholder="Third country" required>
+        <label for="thirdCountry">Third Country Preference</label>
+      </div>
+      <div class="form-floating mb-5">
+        <textarea class="form-control" placeholder="Reason for choosing" id="thirdReason" name=thirdReason" required></textarea>
+        <label for="thirdReason">State your reason why you choose your first council preference</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="mb-3">Previous MUN Experience (if any)</legend>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Previous MUN Experience" id="experience" name=experience" required></textarea>
+        <label for="experience">The format: (Name of MUN) - (Year) - (Council) - (Chair/Delegate) - (Award (if any))</label>
+      </div>
+    </fieldset>
+    <div class="text-center mb-4">
+      <button type="submit" class="main-button">Register</button>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+
   </form>
 
   <?php require "./components/script.php" ?>

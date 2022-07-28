@@ -2,7 +2,23 @@ form {
   text-align: left;
 }
 
-.form-label {
-
+input,textarea,select{
+  border: 1px solid #EAC497 !important;
+  border-radius: 0 !important;
 }
 
+legend {
+  font-family:  'EB Garamond', serif;
+  color: #D89F5C;
+  font-weight: 600;
+}
+
+textarea {
+  min-height: 5rem !important;
+}
+
+.disclaimer {
+  color: #D89F5C;
+  font-style: italic;
+  font-size: 16px;
+}
