@@ -71,12 +71,12 @@
     </fieldset>
 
     <fieldset>
-      <legend class="mb-3">Council and Country Preference</legend>
+      <legend class="mb-1">Council and Country Preference</legend>
       <p class="disclaimer">*Disclaimer: UNEP and EU as the council preference will be held by online. UNSC and WHO as the council preference will be held by offline</p>
 
       <div class="form-floating mb-4">
         <select class="form-select" aria-label="First Council Preference" id="firstCouncil" name="firstCouncil" required>
-          <option value="" selected disabled></option>
+          <option value="" selected disabled>Select first council preference</option>
           <option value="UNEP (United Nations Environment Programme)">UNEP (United Nations Environment Programme)</option>
           <option value="WHO (World Health Organization)">WHO (World Health Organization)</option>
           <option value="EU (European Union)">EU (European Union)</option>
@@ -95,7 +95,7 @@
 
       <div class="form-floating mb-4">
         <select class="form-select" aria-label="Second Council Preference" id="secondCouncil" name="secondCouncil" required>
-          <option value="" selected disabled></option>
+          <option value="" selected disabled>Select second council preference</option>
           <option value="UNEP (United Nations Environment Programme)">UNEP (United Nations Environment Programme)</option>
           <option value="WHO (World Health Organization)">WHO (World Health Organization)</option>
           <option value="EU (European Union)">EU (European Union)</option>
@@ -114,7 +114,7 @@
 
       <div class="form-floating mb-4">
         <select class="form-select" aria-label="Third Council Preference" id="thirdCouncil" name="thirdCouncil" required>
-          <option value="" selected disabled></option>
+          <option value="" selected disabled>Select third council preference</option>
           <option value="UNEP (United Nations Environment Programme)">UNEP (United Nations Environment Programme)</option>
           <option value="WHO (World Health Organization)">WHO (World Health Organization)</option>
           <option value="EU (European Union)">EU (European Union)</option>
@@ -134,10 +134,22 @@
 
     <fieldset>
       <legend class="mb-3">Previous MUN Experience (if any)</legend>
-      <div class="form-floating">
+      <div class="form-floating mb-5">
         <textarea class="form-control" placeholder="Previous MUN Experience" id="experience" name=experience" required></textarea>
         <label for="experience">The format: (Name of MUN) - (Year) - (Council) - (Chair/Delegate) - (Award (if any))</label>
       </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        Delegation's Health Condition and Dietary Restriction
+      </legend>
+      <p class="disclaimer">(Disclaimer: Only for those who choose to attend JAGOMUN 2022 by offline)
+        1. Please give a brief description of any medical or mental health concerns, physical impairments, serious illnesses or allergies that the delegate may have had:
+        2. Please list any special dietary requirements that the delegate may have for medical, religious or ethical reasons:
+      </p>
+      <textarea class="form-control" placeholder="Delegation's Health Condition and Dietary Restriction" id="healthCondition" name=healthCondition" required></textarea>
+      <label for="healthCondition">Delegation's Health Condition and Dietary Restriction</label>
     </fieldset>
     <div class="text-center mb-4">
       <button type="submit" class="main-button">Register</button>

@@ -19,6 +19,6 @@ textarea {
 
 .disclaimer {
   color: #D89F5C;
-  font-style: italic;
   font-size: 16px;
+  white-space: pre-line;
 }
