@@ -4,7 +4,7 @@ class ConnectDb
   static function connect()
   {
     $hostname = "127.0.0.1:3306";
-    $dbName = "test";
+    $dbName = "jagomun";
     $conn = null;
     try {
       $conn = new PDO("mysql:host=$hostname;dbname=$dbName", "root", "");

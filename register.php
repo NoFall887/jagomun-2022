@@ -1,3 +1,10 @@
+<?php
+require "./scripts/query.php";
+require "./scripts/connection.php";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  insertData();
+};
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,10 +13,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="./css/style.css">
+
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet" type="text/css" charset="utf-8" />
+  <link href="./css/style.css" rel="stylesheet" type="text/css" charset="utf-8" />
 
 
   <title>Register - Jagomun 2022</title>
@@ -42,7 +49,12 @@
         <label for="address">Nationality</label>
       </div>
       <div class="form-floating mb-4">
-        <input type="text" class="form-control" id="gender" name="gender" placeholder="gender" required>
+        <select class="form-select" aria-label="Gender" id="gender" name="gender" required>
+          <option value="" selected disabled>Select gender</option>
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="prefer not to tell">prefer not to tell</option>
+        </select>
         <label for="address">Gender</label>
       </div>
       <!-- countrycode and phone number -->
@@ -89,7 +101,7 @@
         <label for="firstCountry">First Country Preference</label>
       </div>
       <div class="form-floating mb-5">
-        <textarea class="form-control" placeholder="Reason for choosing" id="firstReason" name=firstReason" required></textarea>
+        <textarea class="form-control" placeholder="Reason for choosing" id="firstReason" name="firstReason" required></textarea>
         <label for="firstReason">State your reason why you choose your first council preference</label>
       </div>
 
@@ -108,8 +120,8 @@
         <label for="secondCountry">Second Country Preference</label>
       </div>
       <div class="form-floating mb-5">
-        <textarea class="form-control" placeholder="Reason for choosing" id="firstReason" name=firstReason" required></textarea>
-        <label for="firstReason">State your reason why you choose your second council preference</label>
+        <textarea class="form-control" placeholder="Reason for choosing" id="secondReason" name="secondReason" required></textarea>
+        <label for="secondReason">State your reason why you choose your second council preference</label>
       </div>
 
       <div class="form-floating mb-4">
@@ -127,7 +139,7 @@
         <label for="thirdCountry">Third Country Preference</label>
       </div>
       <div class="form-floating mb-5">
-        <textarea class="form-control" placeholder="Reason for choosing" id="thirdReason" name=thirdReason" required></textarea>
+        <textarea class="form-control" placeholder="Reason for choosing" id="thirdReason" name="thirdReason" required></textarea>
         <label for="thirdReason">State your reason why you choose your first council preference</label>
       </div>
     </fieldset>
@@ -135,7 +147,7 @@
     <fieldset>
       <legend class="mb-3">Previous MUN Experience (if any)</legend>
       <div class="form-floating mb-5">
-        <textarea class="form-control" placeholder="Previous MUN Experience" id="experience" name=experience" required></textarea>
+        <textarea class="form-control" placeholder="Previous MUN Experience" id="experience" name="experience"></textarea>
         <label for="experience">The format: (Name of MUN) - (Year) - (Council) - (Chair/Delegate) - (Award (if any))</label>
       </div>
     </fieldset>
@@ -148,7 +160,7 @@
         1. Please give a brief description of any medical or mental health concerns, physical impairments, serious illnesses or allergies that the delegate may have had:
         2. Please list any special dietary requirements that the delegate may have for medical, religious or ethical reasons:
       </p>
-      <textarea class="form-control" placeholder="Delegation's Health Condition and Dietary Restriction" id="healthCondition" name=healthCondition" required></textarea>
+      <textarea class="form-control" placeholder="Delegation's Health Condition and Dietary Restriction" id="healthCondition" name="healthCondition" required></textarea>
       <label for="healthCondition">Delegation's Health Condition and Dietary Restriction</label>
     </fieldset>
     <div class="text-center mb-4">
