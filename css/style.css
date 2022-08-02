@@ -16,8 +16,8 @@ body {
 
 @font-face {
     font-family: 'shandora_demoregular';
-    src: url('Font/shandora_demo-webfont.woff2') format('woff2'),
-         url('Font/shandora_demo-webfont.woff') format('woff');
+    src: url('../font/shandora_demo-webfont.woff2') format('woff2'),
+         url('../font/shandora_demo-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

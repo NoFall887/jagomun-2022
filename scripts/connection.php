@@ -6,18 +6,17 @@ class ConnectDb
     $hostname = "127.0.0.1:3306";
     $dbName = "jagomun";
     $conn = null;
-    try {
-      $conn = new PDO("mysql:host=$hostname;dbname=$dbName", "root", "");
-      // set the PDO error mode to exception
-      $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-      return $conn;
-    } catch (PDOException $e) {
-      echo "Connection failed: " . $e->getMessage();
+
+    $conn = new mysqli($hostname, "root", "", $dbName);
+    if ($conn->connect_error) {
+      echo "Connection failed: " . $conn->connect_error;
+      return;
     }
+    return $conn;
   }
 
   static function disconnect($conn)
   {
-    $conn = null;
+    $conn->close();
   }
 }
