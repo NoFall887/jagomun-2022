@@ -22,7 +22,7 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="../register.php">Single Delegation</a>
-            <a class="dropdown-item" href="#delegation">Delegation</a>
+            <a class="dropdown-item" href="https://bit.ly/DelegationRegistrationJAGOMUN2022">Delegation</a>
           </ul>
         </li>
         <li class="nav-item">
