@@ -26,7 +26,7 @@
 
 #navbar {
 	transition: 0.8s;
-	background-color: #EDF5E0 !important;
+	background-color: var(--light-blue-01) !important;
 	opacity: 1;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 	padding: 16px 0px;
@@ -39,17 +39,9 @@
 	margin-bottom: 0px;
 }
 
-
-@media screen and (max-width: 575.98px) {
-	nav {background-color: #FFBE00;}
-	.identity {opacity: 1}
-}
-
 .navbar-nav>li.nav-item.active>a.nav-link {opacity: 100% !important;font-weight: 600;}
 .logo{width: 32px;}
 .line{margin-right:12px; margin-left: 12px; opacity: 100%}
-.navbar .nav-item a:hover {opacity: 100%;}
-/* .eventnav a {color: #0D1D23 !important;} */
 
 .home-link {
 	display: flex;

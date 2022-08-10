@@ -9,10 +9,14 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	padding-top: 100px;
-	background-color: #0D1D23 !important;
 }
 
+:root {
+	--light-blue-01: #E4F3FF;
+	--light-blue-02: #B0D6F5;
+	--light-blue-03: #64C2F4;
+	--dark-blue-01: #0487E2;
+}
 
 @font-face {
     font-family: 'shandora_demoregular';
@@ -22,39 +26,39 @@ body {
     font-style: normal;
 }
 
-
-/*home*/
-
-@media screen and (max-width: 575.98px) {
-  .maintitle .title1 h1 {
-  	font-size: 48px !important;
-  	line-height: 48px !important;
-  }
-  .maintitle .title2 h3 {
-  	font-size: 18px !important;
-  	line-height: 18px !important;
-  }
+.main-button {
+	color: #0D1D23;
+	padding: 14px 32px;
+	background-color: var(--light-blue-03);
+	font-family: 'EB Garamond', serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 48px;
+	border-radius: 0;	
+	transition: ease-in-out 0.3s;
 }
 
-.maintitle {
-	padding-top: 96px;
+.main-button:hover {background-color: var(--dark-blue-01);}
+
+/*HOME*/
+/* hero section */
+.hero {
+	padding-top: 168px;
+	padding-bottom: 100px;
+	background: rgb(9,41,52);
+	background: linear-gradient(0deg, rgba(9,41,52,1) 0%, rgba(9,41,52,0.7628093473717612) 43%, rgba(9,41,52,0.4182715322457108) 100%);
+	transform-style: preserve-3d;
+
 }
 
-.maintitle .title1 {margin-top: 152px; float: left !important;}
-.maintitle .title2 {position: static !important; float: left !important;}
-
-
-
-
-/*Home*/
 h1 {
 	font-weight: 600 !important;
 	font-family: 'shandora_demoregular';
-	color: #D89F5C;
+	color: var(--light-blue-03);
 	font-size: 52px !important;
 }
 
-.maintitle h2 {
+.hero h2 {
 	font-weight: 400;
 	font-family: 'EB Garamond', serif;
 	color: #EDF5E0;
@@ -66,34 +70,30 @@ h3 {font-size: 32px !important;}
 h4 {font-size: 24px !important;}
 h5 {font-size: 16px !important;}
 
-p { 
+.hero p { 
 	font-family:  'EB Garamond', serif;
 	font-weight: 300;
-	color: #EDF5E0;
+	color: var(--light-blue-02);
 	font-size: 24px;
 	line-height: 150%;
 }
 
-.main-button {
-	color: #0D1D23;
-	padding: 16px 40px 16px 40px;
-	background-color: #EAC497;
-	font-family: 'EB Garamond', serif;
-	font-weight: 600;
-	font-size: 20px;
-	margin-top: 48px;
-	border-radius: 0;	
-	transition: ease-in-out 0.3s;
-}
-
-.main-button:hover {background-color: #D89F5C;}
-
-.date h3 {
+.hero h3 {
 	font-weight: 400;
 	font-family: 'shandora_demoregular';
-	color: #EDF5E0;
+	color: white;
 }
-.date .desc {margin-top: 48px;}
+
+.hero .desc {margin-top: 48px;}
+
+/* blue line */
+.separator::before {
+	content: "";
+	width: 1px;
+	display: block;
+	background-color: var(--light-blue-03);
+	height: 100%;
+}
 footer {
 	position: absolute;
 	width: 100%;
