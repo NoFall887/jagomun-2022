@@ -14,11 +14,11 @@
 </head>
 
 <body>
-
   <?php require "./components/navbar.php"; ?>
 
   <!-- section -->
   <section class="hero">
+
     <div class="container">
       <div class=" row d-flex justify-content-center text-center">
         <h1 class="mb-4">

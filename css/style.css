@@ -16,6 +16,7 @@ body {
 	--light-blue-02: #B0D6F5;
 	--light-blue-03: #64C2F4;
 	--dark-blue-01: #0487E2;
+	--dark-blue-02: #081217;
 }
 
 @font-face {
@@ -45,10 +46,7 @@ body {
 .hero {
 	padding-top: 168px;
 	padding-bottom: 100px;
-	background: rgb(9,41,52);
-	background: linear-gradient(0deg, rgba(9,41,52,1) 0%, rgba(9,41,52,0.7628093473717612) 43%, rgba(9,41,52,0.4182715322457108) 100%);
-	transform-style: preserve-3d;
-
+	
 }
 
 h1 {

@@ -9,7 +9,7 @@ input,textarea,select{
 
 legend {
   font-family:  'EB Garamond', serif;
-  color: #D89F5C;
+  color: var(--light-blue-02);
   font-weight: 600;
 }
 
@@ -17,8 +17,22 @@ textarea {
   min-height: 5rem !important;
 }
 
+.form-body{
+  background-color: var(--dark-blue-02);
+}
+
+.form-wrapper{
+  margin-top: 132px;
+}
+
 .disclaimer {
-  color: #D89F5C;
+  color: var(--light-blue-02);
   font-size: 16px;
   white-space: pre-line;
+}
+
+.alert-position {
+  position: fixed;
+  bottom: 18px;
+  right: 32px;
 }
