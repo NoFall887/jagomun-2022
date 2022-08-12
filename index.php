@@ -85,17 +85,7 @@
   </section>
 
   <section class="theme">
-    <img class="image1" src="assets/image 1.png" alt="">
-    <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-sm-6 text-left">
-            <h3>Previously on JAGOMUN 2021</h3>
-            <p>Jember Annual Global Model United Nations 2021 is the biggest event of the UKM UNEJ MUN Club in the form of a simulation of the United Nations assembly at the international level. JAGOMUN 2021 was held for the first time online in 2021. JAGOMUN 2021 has managed to make a great start by gaining 100+ delegates from 9 countries (Indonesia, Philippines, Zambia, Spain, Russia, India, United Arab Emirates, Cambodia, Saudi Arabia); attracting 11 Chairs from Indonesia, the Philippines, and Nepal; receiving support from the Ministry of Foreign Affairs, United Nations High Commissioner for Refugees in Indonesia, and The Asian Institute of Alternative Dispute Resolutions; and supporting by the Rector of the University of Jember, Governor of East Java Province, Consul-General of the Republic of Indonesia in Frankfurt, and the United Nations Representative for Indonesia.</p>
-          </div>
-          <div class="col-sm-5 offset-sm-1 d-flex align-self-center">
-              <img class="preview" src="assets/vid preview.png" alt="" style="max-width: 100%;  height: auto">
-          </div>
-        </div>
+
       </div>
   <?php require "./components/script.php" ?>
 </body>
