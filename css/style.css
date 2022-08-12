@@ -47,7 +47,23 @@ body {
 .hero {
 	padding-top: 168px;
 	padding-bottom: 100px;
-	
+	background-image: url('../assets/JFC.png');
+	background-attachment: fixed;
+	background-size: cover;
+}
+.hero img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* width: 100%;
+	height: 100%; */
+	object-fit: cover;
+	z-index: 1;
+}
+
+.hero .container{
+	position: relative;
+	z-index: 10000;
 }
 
 h1 {
