@@ -18,7 +18,7 @@
 
   <!-- section -->
   <section class="hero">
-
+    <img src="assets/gradient.png" alt="">
     <div class="container">
       <div class=" row d-flex justify-content-center text-center">
         <h1 class="mb-4">
@@ -49,16 +49,7 @@
     </div>
   </section>
 
-  <!-- apply dark background color on this wrapper -->
-  <div class="wrapper container-fluid">
-    <!-- countdown section -->
-    <section id="countdown mx-auto p-4">
-      <span class=""></span>
-    </section>
-
-
-  </div>
-
+  <!-- jumbotron -->
   <?php require "./components/script.php" ?>
 </body>
 
