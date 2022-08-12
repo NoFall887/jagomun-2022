@@ -31,7 +31,7 @@
     </div>
 
     <div class="container text-center">
-      <button class="btn d-flex mx-auto main-button" type="button">Register Now</button>
+      <a class="btn mx-auto main-button" role="button" href="./register.php">Register Now</a>
     </div>
     <div class="desc container">
       <div class="row justify-content-md-center">
@@ -49,7 +49,16 @@
     </div>
   </section>
 
-  <!-- jumbotron -->
+  <!-- apply dark background color on this wrapper -->
+  <div class="wrapper container-fluid">
+    <!-- countdown section -->
+    <section id="countdown mx-auto p-4">
+      <span class=""></span>
+    </section>
+
+
+  </div>
+
   <?php require "./components/script.php" ?>
 </body>
 

@@ -1,5 +1,6 @@
 @import url("./navbar.css");
 @import url("./form.css");
+@import url("./countdown.css");
 html {
 	position: relative;
 	overflow: scroll;
@@ -37,16 +38,22 @@ body {
 	margin-top: 48px;
 	border-radius: 0;	
 	transition: ease-in-out 0.3s;
+	border: 0;
 }
 
 .main-button:hover {background-color: var(--dark-blue-01);}
+
+.wrapper {
+	background-color: var(--dark-blue-02);
+}
 
 /*HOME*/
 /* hero section */
 .hero {
 	padding-top: 168px;
 	padding-bottom: 100px;
-	
+	background: rgb(9,41,52);
+	background: linear-gradient(0deg, rgba(9,41,52,1) 0%, rgba(9,41,52,0.7628093473717612) 43%, rgba(9,41,52,0.4182715322457108) 100%);
 }
 
 h1 {
