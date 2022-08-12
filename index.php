@@ -18,7 +18,7 @@
 
   <!-- section -->
   <section class="hero">
-
+    <img src="assets/gradient.png" alt="">
     <div class="container">
       <div class=" row d-flex justify-content-center text-center">
         <h1 class="mb-4">
