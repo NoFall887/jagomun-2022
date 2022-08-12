@@ -1,5 +1,13 @@
 @import url("./navbar.css");
 @import url("./form.css");
+:root {
+	--light-blue-01: #E4F3FF;
+	--light-blue-02: #B0D6F5;
+	--light-blue-03: #64C2F4;
+	--dark-blue-01: #0487E2;
+	--dark-blue-02: #081217;
+}
+
 html {
 	position: relative;
 	overflow: scroll;
@@ -9,15 +17,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #081217;
-}
-
-:root {
-	--light-blue-01: #E4F3FF;
-	--light-blue-02: #B0D6F5;
-	--light-blue-03: #64C2F4;
-	--dark-blue-01: #0487E2;
-	--dark-blue-02: #081217;
+	background-color: var(--dark-blue-02);
 }
 
 @font-face {
@@ -47,23 +47,24 @@ body {
 .hero {
 	padding-top: 168px;
 	padding-bottom: 100px;
-	background-image: url('../assets/JFC.png');
-	background-attachment: fixed;
-	background-size: cover;
-}
-.hero img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	/* width: 100%;
-	height: 100%; */
-	object-fit: cover;
-	z-index: 1;
+	background: rgb(8,18,23);
+	background: linear-gradient(0deg, rgba(8,18,23,1) 0%, rgba(8,18,23,0.4) 100%);
+	position: relative;
+	overflow: hidden;
 }
 
-.hero .container{
-	position: relative;
-	z-index: 10000;
+.hero::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	display: block;
+	top: 0;
+	
+	background-image: url('../assets/JFC-min.png');
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 h1 {
@@ -99,8 +100,6 @@ h3 {
 	color: var(--light-blue-02);
 }
 
-.hero .desc {margin-top: 48px;}
-
 /* blue line */
 .separator::before {
 	content: "";
@@ -122,6 +121,11 @@ h3 {
 	top: 880px;
 }
 
+.documentation p {
+	line-height: 1.8;
+	text-align: justify;
+}
+
 .spnsr {background-color: #FDF6F0;}
 .spnsr	h3 {color: #1C1D24 !important;}
 
@@ -138,7 +142,7 @@ h3 {
 		  list-style: none;
 		  display: flex;
 		  position: relative;
-		  animation: mymove 12s linear infinite;
+		  /* animation: mymove 12s linear infinite; */
 		}
 
 		.sponsors_slider ul li {
@@ -153,7 +157,7 @@ h3 {
 		}
 
 		/* Safari 4.0 - 8.0 */
-		@-webkit-keyframes mymove {
+		/* @-webkit-keyframes mymove {
 		  0%    { left: 0; }
 		  100%  { left: -100%; }
 		}
@@ -163,7 +167,7 @@ h3 {
 		@keyframes mymove {
 		  0%    { left: 0; }
 		  100%  { left: -100%; }
-		}
+		} */
 
 footer {
 	position: absolute;
