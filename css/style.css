@@ -9,6 +9,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #081217;
 }
 
 :root {
@@ -46,7 +47,23 @@ body {
 .hero {
 	padding-top: 168px;
 	padding-bottom: 100px;
-	
+	background-image: url('../assets/JFC.png');
+	background-attachment: fixed;
+	background-size: cover;
+}
+.hero img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* width: 100%;
+	height: 100%; */
+	object-fit: cover;
+	z-index: 1;
+}
+
+.hero .container{
+	position: relative;
+	z-index: 10000;
 }
 
 h1 {
@@ -68,18 +85,18 @@ h3 {font-size: 32px !important;}
 h4 {font-size: 24px !important;}
 h5 {font-size: 16px !important;}
 
-.hero p { 
+p { 
 	font-family:  'EB Garamond', serif;
 	font-weight: 300;
-	color: var(--light-blue-02);
-	font-size: 24px;
-	line-height: 150%;
+	color: white;
+	font-size: 20px;
+	line-height: 125%;
 }
 
-.hero h3 {
+h3 {
 	font-weight: 400;
 	font-family: 'shandora_demoregular';
-	color: white;
+	color: var(--light-blue-02);
 }
 
 .hero .desc {margin-top: 48px;}
@@ -92,6 +109,62 @@ h5 {font-size: 16px !important;}
 	background-color: var(--light-blue-03);
 	height: 100%;
 }
+
+/* documentation */
+
+.documentation {
+	padding-top: 168px;
+	padding-bottom: 100px;
+}
+
+.documentation .image1{
+	position: absolute;
+	top: 880px;
+}
+
+.spnsr {background-color: #FDF6F0;}
+.spnsr	h3 {color: #1C1D24 !important;}
+
+.spnsr	hr {
+	border-top: 4px solid #FFBE00; 
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+/*slider*/
+		.sponsors_slider ul {
+		  margin: 0;
+		  padding: 0;
+		  list-style: none;
+		  display: flex;
+		  position: relative;
+		  animation: mymove 12s linear infinite;
+		}
+
+		.sponsors_slider ul li {
+		  flex-shrink: 0;
+		  flex-grow: 0;
+		  padding-left: 24px;
+		  display: block;
+		}
+
+		.sponsors_slider ul li img {
+		  width: 100%;
+		}
+
+		/* Safari 4.0 - 8.0 */
+		@-webkit-keyframes mymove {
+		  0%    { left: 0; }
+		  100%  { left: -100%; }
+		}
+
+		/* Standard syntax */
+
+		@keyframes mymove {
+		  0%    { left: 0; }
+		  100%  { left: -100%; }
+		}
+
 footer {
 	position: absolute;
 	width: 100%;
