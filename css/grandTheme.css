@@ -1,0 +1,19 @@
+.grand-theme {
+  width: 100%;
+  margin-bottom: 216px !important;
+}
+.grand-theme-content {
+  background-color: var(--light-blue-01);
+}
+
+.grand-theme-width-limiter {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.grand-theme-content p {
+  color: black;
+  margin: 0;
+  text-align: justify;
+  line-height: 1.6;
+}
