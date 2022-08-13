@@ -1,0 +1,40 @@
+footer {
+  background-color: white;
+  max-width: 1600px;
+}
+
+footer p {
+  max-width: 524px;
+  color: black;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+footer span {
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+}
+
+footer h6 {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'EB Garamond', serif;
+}
+
+.footer-jagomun-logo {
+  width: 36px;
+  height: 36px;
+}
+
+.footer-contact img{
+  margin-right: 8px;
+}
+
+.footer-contact a {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: 'EB Garamond', serif;
+}
