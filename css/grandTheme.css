@@ -17,3 +17,10 @@
   text-align: justify;
   line-height: 1.6;
 }
+
+.grand-theme .image1{
+	position: absolute;
+	top: 1700px;
+	left: 0;
+	z-index: -1;
+}

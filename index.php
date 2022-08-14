@@ -87,7 +87,7 @@
 
     <div style="padding-top: 88px; padding-bottom: 184px;">
 
-      <div class="sponsors_slider">
+      <div class="docs_slider">
         <ul>
           <li><img src="./assets/img-slideshow/022-08-13 123144.jpg"></li>
           <li><img src="./assets/img-slideshow/IMG_5546-min.jpg"></li>
@@ -118,14 +118,49 @@
   </section>
 
   <section class="grand-theme m-0 p-0">
-    <h3 class="mx-auto text-center grand-theme-width-limiter px-4 mb-4">
+    <img class="image1" src="assets/image 2.png" width="100%">
+    <h3 class="col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-4">
       Sovereignty and Commitment: Overcoming Post-pandemic Obstacles and Challenges
     </h3>
 
-    <div class="grand-theme-content px-5 py-4">
+    <div class="grand-theme-content px-5 py-5">
       <p class="grand-theme-width-limiter mx-auto">We are facing a new era after the COVID-19 pandemic, which has disrupted many aspects of life. As is well acknowledged, the COVID-19 outbreak has caused a severe global health crisis with devastating effects on the economy, society, and psychological health. Even though there have been many crises recently, including diseases, economic decline, and natural disasters, the coronavirus pandemic is the first to have a significant global impact in a century. If we look at the current condition after the pandemic, plenty of severe global issues are overtaking this world. Food crisis, monetary crisis, climate change, and the Russia-Ukraine issue are only a few examples of world hurdles that arise after this post-pandemic era. Therefore, we urge the sovereignty and commitment of the entire nation to overcome the post-pandemic obstacles and challenges so the world goals can be achieved sustainably.</p>
     </div>
   </section>
+
+  <!-- <section class="sponsors m-0 p-0">
+    <h3 class="col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-4">
+      Past Sponsors
+    </h3>
+    
+    <div class="docs_slider" style="padding-top: 64px; padding-bottom: 48px;">
+        <ul>
+          <li><img src="./assets/img-slideshow/022-08-13 123144.jpg"></li>
+          <li><img src="./assets/img-slideshow/IMG_5546-min.jpg"></li>
+          <li><img src="./assets/img-slideshow/IMG_5605-min.jpg"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (1445)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (7)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (719)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (812)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (867)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (893)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (894)-min.png"></li>
+
+          <li><img src="./assets/img-slideshow/022-08-13 123144.jpg"></li>
+          <li><img src="./assets/img-slideshow/IMG_5546-min.jpg"></li>
+          <li><img src="./assets/img-slideshow/IMG_5605-min.jpg"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (1445)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (7)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (719)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (812)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (867)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (893)-min.png"></li>
+          <li><img src="./assets/img-slideshow/Screenshot (894)-min.png"></li>
+
+        </ul>
+      
+      </div>
+  </section> -->
 
   <footer class="d-flex justify-content-between py-5 px-5 align-items-center">
     <div>
@@ -135,7 +170,7 @@
       <p>
         Jember Annual Global Model United Nations (JAGOMUN) is an event carried out by UKM UNEJ MUN CLUB. This is an international event which aims to serve as a forum for all young people as future world leadership candidates in training their views and thoughts on issues that occur in the international world from various perspectives of countries in the world.
       </p>
-      <div style="height: 2px; background-color: black" class="mb-2"></div>
+      <div style="height: 1px; background-color: rgba(8, 18, 23, 0.4)" class="mb-2"></div>
       <span>
         2022 All rights reserved
       </span>
@@ -152,7 +187,7 @@
         <img src="./assets/fa-brands_instagram-square.svg" alt="instagram logo">
         jagomun.2022
       </a>
-    </div>
+    </div> 
   </footer>
 
   <?php require "./components/script.php" ?>
