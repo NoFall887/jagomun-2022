@@ -41,6 +41,7 @@ body {
 	margin-top: 48px;
 	border-radius: 0;	
 	transition: ease-in-out 0.3s;
+	width: fit-content;
 }
 
 .main-button:hover {background-color: var(--dark-blue-01);}
@@ -83,6 +84,10 @@ h1 {
 	color: #EDF5E0;
 	font-size: 32px;
 	line-height: 125%;
+}
+
+.hero p {
+	color: white;
 }
 
 h3 {font-size: 32px !important;}

@@ -5,8 +5,10 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Jember Annual Global Model United Nations (JAGOMUN) is an event carried out by UKM UNEJ MUN CLUB. This is an international event which aims to serve as a forum for all young people as future world leadership candidates in training their views and thoughts on issues that occur in the international world from various perspectives of countries in the world.">
   <!-- Bootstrap CSS -->
 
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
@@ -25,7 +27,7 @@
       </h1>
       <h2>Sovereignty and Commitment: Overcoming Post-pandemic Obstacles and Challenges </h2>
     </div>
-    <button class="btn d-flex mx-auto main-button" type="button">Register Now</button>
+    <a class="btn d-flex mx-auto main-button" href="./register.php" role="button">Register Now</a>
 
     <div class="row justify-content-md-center mt-5">
       <div class="text-end col col-lg-3">
@@ -187,7 +189,7 @@
         <img src="./assets/fa-brands_instagram-square.svg" alt="instagram logo">
         jagomun.2022
       </a>
-    </div> 
+    </div>
   </footer>
 
   <?php require "./components/script.php" ?>

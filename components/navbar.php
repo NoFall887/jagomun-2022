@@ -10,13 +10,13 @@
     </button>
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item active">
+        <li class="nav-item <?php echo $_SERVER['SCRIPT_NAME'] === "/index.php" ? "active" : "" ?>">
           <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#councils">Councils</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown <?php echo $_SERVER['SCRIPT_NAME'] === "/register.php" ? "active" : "" ?>">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Register
           </a>

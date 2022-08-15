@@ -8,6 +8,11 @@
 	color: #0D1D23 !important;
 	opacity: 60%;
 	margin-right: 24px;
+	transition: all ease-in-out 200ms;
+}
+
+.navbar .nav-item .nav-link:hover {
+	opacity: 80% !important;
 }
 
 .dropdown-item.active {
