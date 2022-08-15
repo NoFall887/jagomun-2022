@@ -1,21 +1,13 @@
 /*NAVBAR*/
 
 
-.navbar .nav-item a{
-	font-family:  'EB Garamond', serif;
-	font-size: 18px;
-	font-weight: 400;
-	color: #0D1D23;
-	opacity: 60%;
-	margin-right: 24px;
-}
-
-.navbar .dropdown .dropdown-menu a{
+.navbar .nav-item .nav-link{
 	font-family:  'EB Garamond', serif;
 	font-size: 18px;
 	font-weight: 400;
 	color: #0D1D23 !important;
 	opacity: 60%;
+	margin-right: 24px;
 }
 
 .dropdown-item.active {
