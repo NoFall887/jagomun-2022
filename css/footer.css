@@ -7,6 +7,7 @@ footer p {
   max-width: 524px;
   color: black;
   line-height: 1.6;
+  font-size: 16px;
   text-align: justify;
 }
 
@@ -17,7 +18,7 @@ footer span {
 
 footer h6 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'EB Garamond', serif;
 }
 
