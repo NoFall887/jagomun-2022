@@ -37,8 +37,8 @@
       <div class="col-md-auto separator">
       </div>
       <div class="col col-lg-3">
-        <h3>Jember</h3>
-        <p class="mb-1">Bla Bla Bla Hotel</p>
+        <h3>Hybrid</h3>
+        <p class="mb-1">Venue - TBD</p>
       </div>
     </div>
   </section>
