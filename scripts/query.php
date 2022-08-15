@@ -6,7 +6,8 @@ function getData()
 {
   $conn = ConnectDb::connect();
   $sqlCommand = "SELECT * FROM peserta";
-  $result = $conn->query($sqlCommand)->fetch_assoc();
+  $result = $conn->query($sqlCommand);
+  $result = $result->fetch_assoc();
   ConnectDb::disconnect($conn);
   return $result;
 }
