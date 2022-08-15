@@ -34,7 +34,7 @@
         <h3>November</h3>
         <p class="mb-1">25 - 27 November 2022</p>
       </div>
-      <div class="col-md-auto separator">
+      <div class="col-auto separator">
       </div>
       <div class="col col-lg-3">
         <h3>Hybrid</h3>

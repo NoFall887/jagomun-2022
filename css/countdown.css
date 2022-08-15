@@ -26,3 +26,9 @@
   align-items: center;
  gap: 16px; 
 }
+
+@media only screen and (max-width: 775px) {
+	.countdown {
+		padding: 48px 32px;
+	}
+}
