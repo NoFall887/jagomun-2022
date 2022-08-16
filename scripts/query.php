@@ -72,7 +72,7 @@ function insertData()
     $statement->bind_param("sssssssssssssssssssss", ...$values);
     $statement->execute();
     $statement->close();
-    return array("status" => "success", "message" => "Registration success");
+    return array("status" => "success", "message" => "Registration success!");
   } catch (mysqli_sql_exception $e) {
     return array("status" => "error", "message" => $e->getMessage());
   }
