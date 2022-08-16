@@ -180,20 +180,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
   ?>
     <script type="text/javascript">
-      <?php
-      if ($status["status"] === "error") { ?>
-        const alertPlaceholder = document.getElementsByClassName("form-body")[0]
+      const alertPlaceholder = document.getElementsByClassName("form-body")[0]
 
-        function alert(message) {
-          var wrapper = document.createElement('div')
-          wrapper.innerHTML = '<div class="alert alert-danger alert-dismissible alert-position" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
-
-          alertPlaceholder.append(wrapper)
-        }
-        alert("<?php echo $status["message"] ?>")
-      <?php
+      function alert(status, message) {
+        var wrapper = document.createElement('div')
+        wrapper.innerHTML = `<div class="alert alert-${status === "error"? "danger":"success"} alert-dismissible alert-position" role="alert">${message}<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>`
+        alertPlaceholder.append(wrapper)
       }
-      ?>
+
+      alert("<?php echo $status["status"] ?>", "<?php echo $status["message"] ?>")
+
       document.getElementById("gender").value = "<?php echo isset($_POST["gender"]) ? $_POST["gender"] : '' ?>"
       document.getElementById("genderCoDelegate").value = "<?php echo isset($_POST["genderCoDelegate"]) ? $_POST["genderCoDelegate"] : '' ?>"
       document.getElementById("firstCouncil").value = "<?php echo isset($_POST["firstCouncil"]) ? $_POST["firstCouncil"] : '' ?>"
