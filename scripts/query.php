@@ -1,17 +1,5 @@
 <?php
 
-
-
-function getData()
-{
-  $conn = ConnectDb::connect();
-  $sqlCommand = "SELECT * FROM peserta";
-  $result = $conn->query($sqlCommand);
-  $result = $result->fetch_all();
-  ConnectDb::disconnect($conn);
-  return $result;
-}
-
 function checkUNSCisSet()
 {
   $field = ["firstCouncil", "secondCouncil"];
