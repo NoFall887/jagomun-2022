@@ -1,44 +1,24 @@
 <?php
 require "./scripts/query.php";
 require "./scripts/connection.php";
-function createUsersData()
-{
-  $users = getData();
-  $data = "";
-  // add header
-  foreach ($users[0] as $key => $value) {
-    $data .= ($key . ",");
-  }
-  $data .= "\n";
 
-  // add the datas
-  foreach ($users as $user) {
-    foreach ($user as $key => $value) {
-      $data .= ($value . ",");
-    }
-    $data .= "\n";
-  }
-
-  return $data;
+$db_con = ConnectDb::connect();
+$result = $db_con->query('SELECT * FROM peserta');
+if (!$result) die('Couldn\'t fetch records');
+$num_fields = mysqli_num_fields($result);
+$headers = array();
+while ($fieldinfo = mysqli_fetch_field($result)) {
+  $headers[] = $fieldinfo->name;
 }
-
-function createDownloadUsersFile()
-{
-  // create file
-  $fileName = "users.csv";
-  $usersFile = fopen($fileName, "w") or die("Unable to open file!");
-  fwrite($usersFile, createUsersData());
-  fclose($usersFile);
-
-  // create response header and send file
-  header('Content-Description: File Transfer');
-  header('Content-Disposition: attachment; filename=' . basename($fileName));
+$fp = fopen('php://output', 'w');
+if ($fp && $result) {
+  header('Content-Type: text/csv');
+  header('Content-Disposition: attachment; filename="peserta.csv"');
+  header('Pragma: no-cache');
   header('Expires: 0');
-  header('Cache-Control: must-revalidate');
-  header('Pragma: public');
-  header('Content-Length: ' . filesize($fileName));
-  header("Content-Type: text/plain");
-  readfile($fileName);
-};
-
-createDownloadUsersFile();
+  fputcsv($fp, $headers);
+  while ($row = $result->fetch_array(MYSQLI_NUM)) {
+    fputcsv($fp, array_values($row));
+  }
+  die;
+}
