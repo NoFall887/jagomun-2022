@@ -150,9 +150,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <fieldset>
           <legend class="mb-3">Previous MUN Experience (if any)</legend>
+          <p class="disclaimer">The format: (Name of MUN) - (Year) - (Council) - (Chair/Delegate) - (Award (if any))</p>
           <div class="form-floating mb-5">
             <textarea class="form-control" placeholder="Previous MUN Experience" id="experience" name="experience"><?php echo isset($_POST['experience']) ? htmlspecialchars($_POST['experience']) : '' ?></textarea>
-            <label for="experience">The format: (Name of MUN) - (Year) - (Council) - (Chair/Delegate) - (Award (if any))</label>
           </div>
         </fieldset>
 

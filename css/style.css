@@ -108,6 +108,15 @@ h3 {
 	color: var(--light-blue-02);
 }
 
+@media only screen and (max-width: 770px) {
+	.hero p {
+		font-size: 16px
+	}
+	.hero h3 {
+		font-size: 24px
+	}
+}
+
 /* blue line */
 .separator::before {
 	content: "";

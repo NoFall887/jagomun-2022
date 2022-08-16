@@ -63,7 +63,7 @@ function insertData()
       if (in_array($key, $optionalField)) {
         // if UNSC is chosen, and the optional field is empty
         if (empty($_POST[$key]) && $unscIsSet === true) {
-          return array("status" => "error", "message" => "Yo've chosen UNSC. Please fill the data for Co-delegate!");
+          return array("status" => "error", "message" => "You've chosen UNSC. Please fill the data for Co-delegate!");
         } elseif (!empty($_POST[$key]) && $unscIsSet === false) {
           return array("status" => "error", "message" => "You're not choosing UNSC. you don't need to fill out the co-delegate data");
         }
