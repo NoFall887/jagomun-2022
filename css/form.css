@@ -25,6 +25,10 @@ textarea {
   margin-top: 132px;
 }
 
+.form-floating > label{
+  font-size: 12px;
+}
+
 .disclaimer {
   color: var(--light-blue-02);
   font-size: 16px;

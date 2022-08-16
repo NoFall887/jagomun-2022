@@ -10,6 +10,7 @@
 	margin-right: 24px;
 	transition: all ease-in-out 200ms;
 }
+.dropdown-item {font-family:  'EB Garamond', serif;}
 
 .navbar .nav-item .nav-link:hover {
 	opacity: 80% !important;
