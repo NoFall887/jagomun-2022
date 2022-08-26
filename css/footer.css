@@ -45,3 +45,9 @@ footer h6 {
     display: none;
 	}
 }
+
+@media only screen and (max-width: 400px) {
+	.footer-contact a {
+		font-size: 16px;
+	}
+}

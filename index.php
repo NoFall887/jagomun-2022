@@ -31,14 +31,14 @@
 
     <div class="row justify-content-md-center mt-5">
       <div class="text-end col col-lg-3">
-        <h3>November</h3>
+        <h3>Date</h3>
         <p class="mb-1">25 - 27 November 2022</p>
       </div>
       <div class="col-auto separator">
       </div>
       <div class="col col-lg-3">
-        <h3>Hybrid</h3>
-        <p class="mb-1">Venue - TBD</p>
+        <h3>Place</h3>
+        <p class="mb-1">Hybrid - Venue TBD</p>
       </div>
     </div>
   </section>
@@ -130,39 +130,107 @@
     </div>
   </section>
 
-  <!-- <section class="sponsors m-0 p-0">
-    <h3 class="col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-4">
-      Past Sponsors
-    </h3>
-    
-    <div class="docs_slider" style="padding-top: 64px; padding-bottom: 48px;">
-        <ul>
-          <li><img src="./assets/img-slideshow/022-08-13 123144.jpg"></li>
-          <li><img src="./assets/img-slideshow/IMG_5546-min.jpg"></li>
-          <li><img src="./assets/img-slideshow/IMG_5605-min.jpg"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (1445)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (7)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (719)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (812)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (867)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (893)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (894)-min.png"></li>
+ <!-- council -->
+<section class="council m-0 p-0">
+  <img class="image4" src="assets/image 4.png" width="100%">
+  <h3 class="council col-md-6 mx-auto text-center grand-theme-width-limiter px-4">COUNCILS PREVIEW</h3>
+  <p class="col-md-12 mx-auto text-center grand-theme-width-limiter px-4" style="padding-bottom: 64px;">
+    Check Out Our Council Below to Choose Which One Best Fits you
+  </p>
+    <div class="sponsor_slider" style="padding-bottom: 184px;">
+        <ul class="d-flex justify-content-sm-center">
+          <li><img src="./assets/eu.png"></li>
+          <li><img src="./assets/who.png"></li>
+          <li><img src="./assets/unep.png"></li>
+          <li><img src="./assets/unsc.png"></li>
+        </ul>  
+    </div>
+  <img class="image5" src="assets/image 5.png" width="100%">
+</section>
 
-          <li><img src="./assets/img-slideshow/022-08-13 123144.jpg"></li>
-          <li><img src="./assets/img-slideshow/IMG_5546-min.jpg"></li>
-          <li><img src="./assets/img-slideshow/IMG_5605-min.jpg"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (1445)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (7)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (719)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (812)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (867)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (893)-min.png"></li>
-          <li><img src="./assets/img-slideshow/Screenshot (894)-min.png"></li>
-
-        </ul>
-      
+  <!-- FAQ -->
+  
+  <section class="faq" style="padding-bottom: 184px;">
+  <p class="col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-2">More Informations</p>
+  <h3 class="col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-4">FREQUENTLY ASKED QUESTION</h3>
+  <div class="accordion accordion-flush" id="AccordionFlush">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Who is eligible to participate in JAGOMUN 2022?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#AccordionFlush">
+        <div class="accordion-body">All youth within the age range of 17-25 years old can participate in the Jember Annual Global MUN 2022</div>
       </div>
-  </section> -->
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Will all delegates get a certificate?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#AccordionFlush">
+        <div class="accordion-body">Yes, all delegates will be entitled to a participation certificate with a minimum attendance requirement of 80% or attendance at least 4 of 5 committee sessions total.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Can the delegate choose their country and council?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#AccordionFlush">
+        <div class="accordion-body">Yes, you can choose your preferred country and council while registering, but be aware that you need to complete your payment fast enough so you will be prioritized for your preferences</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        Must the delegate have previous MUN experience to participate in JAGOMUN?
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#AccordionFlush">
+        <div class="accordion-body">No, JAGOMUN 2022 is friendly to MUN beginners. You can still join the conference even if you have no previous experience</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+        What if I register but can't attend the conference? Will I get a refund?
+        </button>
+      </h2>
+      <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#AccordionFlush">
+        <div class="accordion-body">All purchases are non-refundable. If you can't attend the conference, your position can be replaced with someone else.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- sponsors -->
+<section class="m-0 p-0">
+  <h3 class="sponsor col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-4">PAST SPONSORS</h3>
+    <div class="sponsor_slider" style="padding-bottom: 48px;">
+        <ul class="d-flex justify-content-sm-center">
+          <li><img src="./assets/wardah.png"></li>
+          <li><img src="./assets/teabreak.png"></li>
+          <li><img src="./assets/jne.png"></li>
+        </ul>  
+    </div>
+  <h3 class="col-md-6 mx-auto text-center grand-theme-width-limiter px-2 mb-2">Collab With Us!</h3>
+  <div class="collab d-flex flex-row justify-content-center" style="padding-bottom: 184px;">
+    <div class="p-2 text-center">
+      <p>Sponsorship</p>
+      <p class="contactperson">Poppy</p>
+      <p class="contactperson">+62 878-6460-5275</p>
+    </div>
+    <div class="p-2 text-center">
+      <p>Partnership</p>
+      <p class="contactperson">Fadly</p>
+      <p class="contactperson">+62 812-9473-5772</p>
+    </div>
+  </div>
+</section>
 
   <footer class="d-flex justify-content-between py-5 px-5 align-items-center">
     <div>

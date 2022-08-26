@@ -190,4 +190,74 @@ h3 {
 		  100%  { transform: translateX(calc(10* -182px + 10 * -24px)); }
 		}
 
+/* council */
+.council .image4{
+	position: absolute;
+	top: 2400px;
+	left: 0;
+	z-index: -1;
+}
+.council h3{font-size: 40px;}
+.council p{
+	font-family:  'EB Garamond', serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: white;
+}
+
+.council .image5{
+	position: absolute;
+	top: 2850px;
+	left: 0;
+	z-index: -1;
+}
+
+/* FAQ */
+
+.faq p{
+	font-family:  'EB Garamond', serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: white;
+}
+
+
+.faq h3{font-size: 40px;}
+
+
+.accordion button { 
+	font-family:  'EB Garamond', serif;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.accordion-item {
+	padding: 12px 112px !important;
+	background-color: var(--dark-blue-02);
+	border: 0px;
+}
+.accordion-button {
+	padding: 24px !important;
+	background-color:var(--light-blue-01);
+}
 /* Sponsors */
+
+.sponsor h3{font-size: 40px;}
+
+.sponsor_slider ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/* display: block; */
+	gap: 24px;
+  }
+.contactperson {
+	color: var(--light-blue-02) !important;
+	font-weight: 300 !important;
+}
+
+.collab p {
+	color: white;
+	margin-bottom: 8px;
+	font-weight: 600;
+}

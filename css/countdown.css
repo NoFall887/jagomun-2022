@@ -31,4 +31,10 @@
 	.countdown {
 		padding: 48px 32px;
 	}
+	.countdown p .col span:first-child {
+		font-size: 32px;
+	}
+	.countdown p .col span:last-child {
+		font-size: 16px;
+	}
 }
