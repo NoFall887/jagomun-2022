@@ -15,13 +15,13 @@
   <title>Jagomun 2022</title>
 </head>
 
-<body>
+<body class="home-container">
   <?php require "./components/navbar.php"; ?>
 
   <!-- hero section -->
   <section class="hero">
     <div class=" row d-flex justify-content-center text-center">
-      <h1 class="mb-4">
+      <h1 class="mb-4 h1-blue">
         <div class="col-md-auto">JEMBER ANNUAL GLOBAL</div>
         <div class="col-md-auto">MODEL UNITED NATIONS</div>
       </h1>
@@ -164,7 +164,7 @@
       </div>
   </section> -->
 
-  <footer class="d-flex justify-content-between py-5 px-5 align-items-center">
+  <footer class="d-flex justify-content-between py-5 px-5 align-items-center home-footer">
     <div>
       <div class="mb-3">
         <img src="./assets/LOGO MUN 2022 1.png" alt="logo" class="footer-jagomun-logo">

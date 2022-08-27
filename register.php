@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body class="text-center form-body">
   <?php require "./components/navbar.php" ?>
   <div class="form-wrapper container">
-    <h1 class="mt-4 mb-5">Delegate Aplication Form</h1>
+    <h1 class="mt-4 mb-5 h1-blue">Delegate Aplication Form</h1>
     <form class="text-start" action=<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?> method="POST" id="registration-form">
       <fieldset>
         <legend class="mb-3">Delegate Information</legend>

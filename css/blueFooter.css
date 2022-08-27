@@ -1,0 +1,17 @@
+.blue-footer {
+  background-color: var(--light-blue-01);
+  width: 100%;
+}
+
+.footer-content {
+  border-bottom: 1px solid #0D1D2366;
+  max-width: 1216px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.footer-content p {
+  margin-bottom: 0;
+  font-family: 'shandora_demoregular', serif;
+}

@@ -3,12 +3,17 @@
 @import url("./countdown.css");
 @import url("./grandTheme.css");
 @import url("./footer.css");
+@import url("./councils.css");
+@import url("./blueFooter.css");
 :root {
 	--light-blue-01: #E4F3FF;
 	--light-blue-02: #B0D6F5;
 	--light-blue-03: #64C2F4;
 	--dark-blue-01: #0487E2;
 	--dark-blue-02: #081217;
+	--dark-blue-03: #1452B2;
+	--orange-01: #D89F5C;
+	--light-yellow: #FEFCC4;
 }
 
 html {
@@ -17,10 +22,13 @@ html {
 	overflow-x: hidden;
 	}
 
+.home-container {
+	background-color: var(--dark-blue-02);
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	background-color: var(--dark-blue-02);
 }
 
 @font-face {
@@ -74,9 +82,16 @@ body {
 
 h1 {
 	font-weight: 600 !important;
-	font-family: 'shandora_demoregular';
-	color: var(--light-blue-03);
+	font-family: 'shandora_demoregular', serif;
 	font-size: 52px !important;
+}
+
+.h1-blue {
+	color: var(--light-blue-03);
+}
+
+.h1-orange {
+	color: var(--orange-01);
 }
 
 .hero h2 {
@@ -104,7 +119,10 @@ p {
 
 h3 {
 	font-weight: 400;
-	font-family: 'shandora_demoregular';
+	font-family: 'shandora_demoregular', serif;
+}
+
+.home-container h3 {
 	color: var(--light-blue-02);
 }
 

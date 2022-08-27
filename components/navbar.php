@@ -13,8 +13,8 @@
         <li class="nav-item <?php echo $_SERVER['SCRIPT_NAME'] === "/index.php" ? "active" : "" ?>">
           <a class="nav-link" href="index.php">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#councils">Councils</a>
+        <li class="nav-item <?php echo $_SERVER['SCRIPT_NAME'] === "/councils.php" ? "active" : "" ?>">
+          <a class="nav-link" href="./councils.php">Councils</a>
         </li>
         <li class="nav-item dropdown <?php echo $_SERVER['SCRIPT_NAME'] === "/register.php" ? "active" : "" ?>">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

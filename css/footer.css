@@ -1,9 +1,9 @@
-footer {
+.home-footer {
   background-color: white;
-  max-width: 1600px;
+  
 }
 
-footer p {
+.home-footer p {
   max-width: 524px;
   color: black;
   line-height: 1.6;
@@ -11,12 +11,12 @@ footer p {
   text-align: justify;
 }
 
-footer span {
+.home-footer span {
   font-family: 'EB Garamond', serif;
   font-size: 16px;
 }
 
-footer h6 {
+.home-footer h6 {
   font-weight: 700;
   font-size: 16px;
   font-family: 'EB Garamond', serif;
@@ -41,7 +41,7 @@ footer h6 {
 }
 
 @media only screen and (max-width: 770px) {
-	footer p {
+	.home-footer p {
     display: none;
 	}
 }
