@@ -25,6 +25,7 @@ textarea {
   margin-top: 132px;
 }
 
+
 .disclaimer {
   color: var(--light-blue-02);
   font-size: 16px;
@@ -35,4 +36,11 @@ textarea {
   position: fixed;
   bottom: 18px;
   right: 32px;
+}
+
+@media only screen and (max-width: 534px) {
+    .form-floating>textarea:focus, .form-floating>textarea:not(:placeholder-shown) {
+    padding-top: 3rem !important;
+    padding-bottom: 0.625rem;
+}
 }

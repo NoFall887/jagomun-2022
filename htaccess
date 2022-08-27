@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^http://jagomun.my.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://jagomun.my.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.jagomun.my.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.jagomun.my.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://jagomun.my.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://jagomun.my.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.jagomun.my.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.jagomun.my.id$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp|svg)$ - [F,NC]
+
