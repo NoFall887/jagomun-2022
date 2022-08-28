@@ -2,6 +2,7 @@ const councilsData = {
   unep: {
     name: "UNEP (United Nations Environment Programme)",
     imgPath: "../assets/councils/UNEP-min.png",
+    delegate: "Beginner - Single delegate",
     topic:
       "Diminishing the Use of Plastics in the Medical Industry to Achieve Sustainability",
     description:
@@ -14,6 +15,7 @@ const councilsData = {
     topic:
       "Establishing General Framework for Universal Healthcare to Control the Future Pandemic",
     imgPath: "../assets/councils/WHO-min.png",
+    delegate: "Beginner - Single delegate",
     description:
       "WHO, as the name implies, is a specialized United Nations agency concerned with global health. WHO's primary role is to ensure that all people have equal access to health care. WHO also works with 194 member countries to address global health issues such as pandemics, natural catastrophes, and disease outbreaks. The World Health Assembly, composed of members from various countries, was present in the 1948 Constitution as a decision-making body for WHO. In carrying out its duty, WHO also conducts reliable research and collects data to aid in the improvement of global health conditions in a clear and unambiguous manner.",
     topicDescription:
@@ -24,6 +26,7 @@ const councilsData = {
     topic:
       "Achieving Economic Stability among European Countries due to the Russia-Ukraine War",
     imgPath: "../assets/councils/EUROPEAN UNION-min.png",
+    delegate: "Intermediate - Single delegate",
     description:
       "The European Union is a multinational organization of 27 European countries. The EU was founded in order for European countries to gain strength and become outstanding, particularly in the economic field. In terms of legal execution, the EU is divided into three main bodies: the European Council, the European Parliament, and the European Commission. The EU has the principle of promoting peace and security among EU member states. This is accomplished through the protection of people's human rights, the establishment of a strong economic foundation, the creation of a healthy environment, and the promotion of European interests on a global scale.",
     topicDescription:
@@ -34,6 +37,7 @@ const councilsData = {
     topic:
       "Border Territories Dispute: Ensuring International Security in Aksai Chin-Ladakh, Himalayan Region",
     imgPath: "../assets/councils/UNSC-min.png",
+    delegate: "Advance - Double delegate",
     description:
       "The United Nations Security Council is concerned with international stability and security. The UNSC has the right to compel member states to comply with its decisions directly under the United Nations Charter. Unlike previous councils, the UN Security Council has the authority to send peacekeepers to levy penalties against individuals who disrupt global security and order. The UN Security Council also attempts to assist countries in resolving disputes by making recommendations for acceptable solutions to achieve international security. If necessary, the UNSC can be found at the United Nations headquarters in New York City where each representative could hold a meeting.",
     topicDescription:
@@ -63,6 +67,7 @@ document.onkeydown = (e) => {
 const councilDetail = document.querySelector(".council-detail");
 const councilName = document.querySelector(".council-name");
 const img = document.querySelector(".council-img");
+const delegation = document.querySelector(".delegation");
 const description = document.querySelector(".council-description");
 const topic = document.querySelector(".council-topic");
 const topicDescription = document.querySelector(".council-topic-description");
@@ -77,6 +82,7 @@ function showCouncilDetail(name) {
   councilName.innerHTML = councilData.name;
   img.src = councilData.imgPath;
   description.innerHTML = councilData.description;
+  delegation.innerHTML = councilData.delegate;
   topic.innerHTML = councilData.topic;
   topicDescription.innerHTML = councilData.topicDescription;
   toggleDetail();

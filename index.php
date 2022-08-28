@@ -139,7 +139,7 @@
     </p>
 
     <div class="wrap" style="padding-bottom: 184px;">
-      <a href="./councils.php" class="tile">
+      <a href="./councils.php?council=unep" class="tile">
         <img src="./assets/unep.png" />
         <div class="text">
           <h4 class="animate-text">United Nations Environment Programme</h4>
@@ -148,7 +148,7 @@
         </div>
       </a>
 
-      <a href="./councils.php" class="tile">
+      <a href="./councils.php?council=who" class="tile">
         <img src="./assets/who.png" />
         <div class="text">
           <h4 class="animate-text">World Health Organization</h4>
@@ -157,7 +157,7 @@
         </div>
       </a>
 
-      <a href="./councils.php" class="tile">
+      <a href="./councils.php?council=eu" class="tile">
         <img src="./assets/eu.png" />
         <div class="text">
           <h4 class="animate-text">European Union</h4>
@@ -166,7 +166,7 @@
         </div>
       </a>
 
-      <a href="./councils.php" class="tile">
+      <a href="./councils.php?council=unsc" class="tile">
         <img src="./assets/unsc.png" />
         <div class="text">
           <h4 class="animate-text">United Nations Security Council</h4>

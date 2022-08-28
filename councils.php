@@ -1,3 +1,7 @@
+<?php
+$params = array();
+parse_str($_SERVER['QUERY_STRING'], $params);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,7 +61,7 @@
       <div class="text-end">
         <button type="button" class="btn-close ms-auto council-close" aria-label="Close"></button>
       </div>
-
+      <p class="delegation text-center"></p>
       <h2 class="council-name text-center h1-orange mb-3">
 
       </h2>
@@ -90,6 +94,36 @@
   <?php include "./components/footer.php";
   include "./components/script.php" ?>
   <script src="./js/councils.js"></script>
+  <script>
+    <?php
+    if (isset($params['council'])) {
+      switch ($params['council']) {
+        case 'unep':
+    ?>
+          showCouncilDetail('unep')
+        <?php
+          break;
+        case 'who':
+        ?>
+          showCouncilDetail('who')
+        <?php
+          break;
+        case 'eu':
+        ?>
+          showCouncilDetail('eu')
+        <?php
+          break;
+        case 'unsc':
+        ?>
+          showCouncilDetail('unep')
+    <?php
+          break;
+        default:
+          break;
+      }
+    }
+    ?>
+  </script>
 </body>
 
 </html>
