@@ -25,12 +25,12 @@ body {background-color: var(--dark-blue-02);}
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  width: 1235px;
+  max-width: 1235px;
   gap: 8%;
 }
 
 .councils-card {
-  width: 375px;
+  max-width: 375px;
   border: 1px solid #E4F3FF;
   margin-bottom: 100px;
   padding: 16px;
