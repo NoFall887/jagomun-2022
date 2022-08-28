@@ -38,7 +38,7 @@
       </div>
       <div class="col col-lg-3">
         <h3>Place</h3>
-        <p class="mb-1">Hybrid - Venue TBD</p>
+        <p class="mb-1">University of Jember</p>
       </div>
     </div>
   </section>
@@ -137,14 +137,44 @@
   <p class="col-md-12 mx-auto text-center grand-theme-width-limiter px-4" style="padding-bottom: 64px;">
     Check Out Our Council Below to Choose Which One Best Fits you
   </p>
-    <div class="sponsor_slider" style="padding-bottom: 184px;">
-        <ul class="d-flex justify-content-sm-center">
-          <li><img src="./assets/eu.png"></li>
-          <li><img src="./assets/who.png"></li>
-          <li><img src="./assets/unep.png"></li>
-          <li><img src="./assets/unsc.png"></li>
-        </ul>  
-    </div>
+  
+  <div class="wrap" style="padding-bottom: 184px;">
+    <a href="./councils.php" class="tile"> 
+      <img src="./assets/unep.png"/>
+      <div class="text">
+        <h4 class="animate-text">United Nations Environment Programme</h4>
+        <p class="animate-text">Beginner - Single delegate</p>
+        <h5 class="animate-text" style="margin-top: 120px;">See More</h5>
+      </div>
+    </a>
+
+    <a href="./councils.php" class="tile"> 
+      <img src="./assets/who.png"/>
+      <div class="text">
+        <h4 class="animate-text">World Health Organization</h4>
+        <p class="animate-text">Beginner - Single delegate</p>
+        <h5 class="animate-text" style="margin-top: 150px;">See More</h5>
+      </div>
+    </a>
+
+    <a href="./councils.php" class="tile"> 
+      <img src="./assets/eu.png"/>
+      <div class="text">
+        <h4 class="animate-text">European Union</h4>
+        <p class="animate-text">Intermediate - Single delegate</p>
+        <h5 class="animate-text" style="margin-top: 178px;">See More</h5>
+      </div>
+    </a>
+
+    <a href="./councils.php" class="tile"> 
+      <img src="./assets/unsc.png"/>
+      <div class="text">
+        <h4 class="animate-text">United Nations Security Council</h4>
+        <p class="animate-text">Advance - Double delegate</p>
+        <h5 class="animate-text" style="margin-top: 150px;">See More</h5>  
+      </div>
+    </a>
+
   <img class="image5" src="assets/image 5.png" width="100%">
 </section>
 
@@ -210,12 +240,10 @@
  <!-- sponsors -->
 <section class="m-0 p-0">
   <h3 class="sponsor col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-4">PAST SPONSORS</h3>
-    <div class="sponsor_slider" style="padding-bottom: 48px;">
-        <ul class="d-flex justify-content-sm-center">
+    <div class="sponsorwrap" style="padding-bottom: 48px;">
           <li><img src="./assets/wardah.png"></li>
           <li><img src="./assets/teabreak.png"></li>
           <li><img src="./assets/jne.png"></li>
-        </ul>  
     </div>
   <h3 class="col-md-6 mx-auto text-center grand-theme-width-limiter px-2 mb-2">Collab With Us!</h3>
   <div class="collab d-flex flex-row justify-content-center" style="padding-bottom: 184px;">

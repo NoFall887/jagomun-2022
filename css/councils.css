@@ -1,3 +1,5 @@
+body {background-color: var(--dark-blue-02);}
+
 .councils-container {
   margin-top: 168px;
   min-height: 100vh;
@@ -11,9 +13,11 @@
 .councils-container .main-button {
   margin-top: 0;
 }
+.councils-container h1 {font-size: 40px;}
 
 .councils-container p {
   margin-bottom: 164px;
+  color: white;
 }
 
 .councils-cards {
@@ -27,7 +31,7 @@
 
 .councils-card {
   width: 375px;
-  border: 1px solid #4E858A;
+  border: 1px solid #E4F3FF;
   margin-bottom: 100px;
   padding: 16px;
   
@@ -35,7 +39,7 @@
 
 .councils-card-content::before {
   content: "";
-  background-color: var(--light-yellow);
+  background-color: var(--light-blue-01);
   width: 80%;
   height: 40px;
   display: block;
@@ -49,7 +53,7 @@
 .councils-card-content {
   position: relative;
   border: none;
-  background-color: var(--light-yellow);
+  background-color: var(--light-blue-01);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,7 +84,7 @@
 }
 
 .council-detail {
-  background-color: var(--light-yellow);
+  background-color: var(--light-blue-01);
   position: absolute;
   top: 0;
   max-width: 1200px;
@@ -94,10 +98,11 @@
   line-height: 1.6;
   text-align: justify;
   margin-bottom: 1rem;
+  color: var(--bs-body-color);
 }
 
 .council-detail h2 {
-  font-size: 52px;
+  font-size: 40px;
   font-family: 'shandora_demoregular', serif;
 }
 
