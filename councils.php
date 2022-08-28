@@ -17,7 +17,7 @@
 <body>
   <?php include "./components/navbar.php" ?>
   <div class="councils-container">
-    <h1 class="mb-3 h1-orange">
+    <h1 class="mb-2 h1-blue">
       OUR COUNCIL
     </h1>
     <p>
