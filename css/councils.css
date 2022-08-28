@@ -44,7 +44,7 @@ body {background-color: var(--dark-blue-02);}
   height: 40px;
   display: block;
   position: absolute;
-  top: -40px;
+  top: -39px;
   left: 50%;
   transform: translate(-50%);
   transition: all ease-in-out 200ms;

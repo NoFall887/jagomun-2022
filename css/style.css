@@ -269,6 +269,7 @@ h3 {
 	display: flex;
 	margin:0 auto 0 auto;
 	max-width:1200px;
+	justify-content: center;
 }
 
 .sponsorwrap li {
@@ -278,7 +279,12 @@ h3 {
 	padding: 0;
 	list-style: none;
 	gap: 24px;
-  }
+	flex: 1;
+}
+
+.sponsorwrap li img {
+	width: 100%;
+}
 
   @media (max-width: 1000px) {
 	.sponsorwrap {
@@ -304,7 +310,7 @@ h3 {
 
 
 .wrap {
-  margin:0 auto 0 auto;
+  margin:auto;
   width:100%;
   display:flex;
   align-items:center;

@@ -52,6 +52,14 @@ document
   .querySelector(".council-close")
   .addEventListener("click", toggleDetail);
 
+// listen to esc button press to close the pop up info
+document.onkeydown = (e) => {
+  let key = e.key.toLowerCase();
+  if (key === "escape" && councilDetail.classList.contains("show")) {
+    toggleDetail();
+  }
+};
+
 const councilDetail = document.querySelector(".council-detail");
 const councilName = document.querySelector(".council-name");
 const img = document.querySelector(".council-img");

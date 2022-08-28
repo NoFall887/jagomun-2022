@@ -77,11 +77,11 @@
 
     <div class="container-fluid px-5 documentation-width-limiter">
       <div class="row d-flex align-items-center">
-        <div class="col-sm-6 text-left">
+        <div class="col-md-6 text-left">
           <h3 class="mb-3">Previously on JAGOMUN 2021</h3>
           <p>Jember Annual Global Model United Nations 2021 is the biggest event of the UKM UNEJ MUN Club in the form of a simulation of the United Nations assembly at the international level. JAGOMUN 2021 was held for the first time online in 2021. JAGOMUN 2021 has managed to make a great start by gaining 100+ delegates from 9 countries (Indonesia, Philippines, Zambia, Spain, Russia, India, United Arab Emirates, Cambodia, Saudi Arabia); attracting 11 Chairs from Indonesia, the Philippines, and Nepal; receiving support from the Ministry of Foreign Affairs, United Nations High Commissioner for Refugees in Indonesia, and The Asian Institute of Alternative Dispute Resolutions; and supporting by the Rector of the University of Jember, Governor of East Java Province, Consul-General of the Republic of Indonesia in Frankfurt, and the United Nations Representative for Indonesia.</p>
         </div>
-        <div class="col-sm-5 offset-sm-1 d-flex align-self-center">
+        <div class="col-md-5 offset-md-1 d-flex align-self-center">
           <iframe src="https://drive.google.com/file/d/1lKT3jA2DiMazHA0JloGsfABKdGi45QPd/preview" id="aftermovie" frameborder="0" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
@@ -130,135 +130,135 @@
     </div>
   </section>
 
- <!-- council -->
-<section class="council m-0 p-0">
-  <img class="image4" src="assets/image 4.png" width="100%">
-  <h3 class="council col-md-6 mx-auto text-center grand-theme-width-limiter px-4">COUNCILS PREVIEW</h3>
-  <p class="col-md-12 mx-auto text-center grand-theme-width-limiter px-4" style="padding-bottom: 64px;">
-    Check Out Our Council Below to Choose Which One Best Fits you
-  </p>
-  
-  <div class="wrap" style="padding-bottom: 184px;">
-    <a href="./councils.php" class="tile"> 
-      <img src="./assets/unep.png"/>
-      <div class="text">
-        <h4 class="animate-text">United Nations Environment Programme</h4>
-        <p class="animate-text">Beginner - Single delegate</p>
-        <h5 class="animate-text" style="margin-top: 120px;">See More</h5>
-      </div>
-    </a>
+  <!-- council -->
+  <section class="council m-0 p-0">
+    <img class="image4" src="assets/image 4.png" width="100%">
+    <h3 class="council col-md-6 mx-auto text-center grand-theme-width-limiter px-4">COUNCILS PREVIEW</h3>
+    <p class="col-md-12 mx-auto text-center grand-theme-width-limiter px-4" style="padding-bottom: 64px;">
+      Check Out Our Council Below to Choose Which One Best Fits you
+    </p>
 
-    <a href="./councils.php" class="tile"> 
-      <img src="./assets/who.png"/>
-      <div class="text">
-        <h4 class="animate-text">World Health Organization</h4>
-        <p class="animate-text">Beginner - Single delegate</p>
-        <h5 class="animate-text" style="margin-top: 150px;">See More</h5>
-      </div>
-    </a>
+    <div class="wrap" style="padding-bottom: 184px;">
+      <a href="./councils.php" class="tile">
+        <img src="./assets/unep.png" />
+        <div class="text">
+          <h4 class="animate-text">United Nations Environment Programme</h4>
+          <p class="animate-text">Beginner - Single delegate</p>
+          <h5 class="animate-text" style="margin-top: 120px;">See More</h5>
+        </div>
+      </a>
 
-    <a href="./councils.php" class="tile"> 
-      <img src="./assets/eu.png"/>
-      <div class="text">
-        <h4 class="animate-text">European Union</h4>
-        <p class="animate-text">Intermediate - Single delegate</p>
-        <h5 class="animate-text" style="margin-top: 178px;">See More</h5>
-      </div>
-    </a>
+      <a href="./councils.php" class="tile">
+        <img src="./assets/who.png" />
+        <div class="text">
+          <h4 class="animate-text">World Health Organization</h4>
+          <p class="animate-text">Beginner - Single delegate</p>
+          <h5 class="animate-text" style="margin-top: 150px;">See More</h5>
+        </div>
+      </a>
 
-    <a href="./councils.php" class="tile"> 
-      <img src="./assets/unsc.png"/>
-      <div class="text">
-        <h4 class="animate-text">United Nations Security Council</h4>
-        <p class="animate-text">Advance - Double delegate</p>
-        <h5 class="animate-text" style="margin-top: 150px;">See More</h5>  
-      </div>
-    </a>
+      <a href="./councils.php" class="tile">
+        <img src="./assets/eu.png" />
+        <div class="text">
+          <h4 class="animate-text">European Union</h4>
+          <p class="animate-text">Intermediate - Single delegate</p>
+          <h5 class="animate-text" style="margin-top: 178px;">See More</h5>
+        </div>
+      </a>
 
-  <img class="image5" src="assets/image 5.png" width="100%">
-</section>
+      <a href="./councils.php" class="tile">
+        <img src="./assets/unsc.png" />
+        <div class="text">
+          <h4 class="animate-text">United Nations Security Council</h4>
+          <p class="animate-text">Advance - Double delegate</p>
+          <h5 class="animate-text" style="margin-top: 150px;">See More</h5>
+        </div>
+      </a>
+
+      <img class="image5" src="assets/image 5.png" width="100%">
+  </section>
 
   <!-- FAQ -->
-  
-  <section class="faq" style="padding-bottom: 184px;">
-  <p class="col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-2">More Informations</p>
-  <h3 class="col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-4">FREQUENTLY ASKED QUESTION</h3>
-  <div class="accordion accordion-flush" id="AccordionFlush">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Who is eligible to participate in JAGOMUN 2022?
-        </button>
-      </h2>
-      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#AccordionFlush">
-        <div class="accordion-body">All youth within the age range of 17-25 years old can participate in the Jember Annual Global MUN 2022</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Will all delegates get a certificate?
-        </button>
-      </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#AccordionFlush">
-        <div class="accordion-body">Yes, all delegates will be entitled to a participation certificate with a minimum attendance requirement of 80% or attendance at least 4 of 5 committee sessions total.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Can the delegate choose their country and council?
-        </button>
-      </h2>
-      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#AccordionFlush">
-        <div class="accordion-body">Yes, you can choose your preferred country and council while registering, but be aware that you need to complete your payment fast enough so you will be prioritized for your preferences</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingFour">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-        Must the delegate have previous MUN experience to participate in JAGOMUN?
-        </button>
-      </h2>
-      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#AccordionFlush">
-        <div class="accordion-body">No, JAGOMUN 2022 is friendly to MUN beginners. You can still join the conference even if you have no previous experience</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingFive">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-        What if I register but can't attend the conference? Will I get a refund?
-        </button>
-      </h2>
-      <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#AccordionFlush">
-        <div class="accordion-body">All purchases are non-refundable. If you can't attend the conference, your position can be replaced with someone else.</div>
-      </div>
-    </div>
-  </div>
-</section>
 
- <!-- sponsors -->
-<section class="m-0 p-0">
-  <h3 class="sponsor col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-4">PAST SPONSORS</h3>
+  <section class="faq" style="padding-bottom: 184px;">
+    <p class="col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-2">More Informations</p>
+    <h3 class="col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-4">FREQUENTLY ASKED QUESTION</h3>
+    <div class="accordion accordion-flush" id="AccordionFlush">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Who is eligible to participate in JAGOMUN 2022?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#AccordionFlush">
+          <div class="accordion-body">All youth within the age range of 17-25 years old can participate in the Jember Annual Global MUN 2022</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Will all delegates get a certificate?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#AccordionFlush">
+          <div class="accordion-body">Yes, all delegates will be entitled to a participation certificate with a minimum attendance requirement of 80% or attendance at least 4 of 5 committee sessions total.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Can the delegate choose their country and council?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#AccordionFlush">
+          <div class="accordion-body">Yes, you can choose your preferred country and council while registering, but be aware that you need to complete your payment fast enough so you will be prioritized for your preferences</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            Must the delegate have previous MUN experience to participate in JAGOMUN?
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#AccordionFlush">
+          <div class="accordion-body">No, JAGOMUN 2022 is friendly to MUN beginners. You can still join the conference even if you have no previous experience</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+            What if I register but can't attend the conference? Will I get a refund?
+          </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#AccordionFlush">
+          <div class="accordion-body">All purchases are non-refundable. If you can't attend the conference, your position can be replaced with someone else.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- sponsors -->
+  <section class="m-0 p-0">
+    <h3 class="sponsor col-md-6 mx-auto text-center grand-theme-width-limiter px-4 mb-4">PAST SPONSORS</h3>
     <div class="sponsorwrap" style="padding-bottom: 48px;">
-          <li><img src="./assets/wardah.png"></li>
-          <li><img src="./assets/teabreak.png"></li>
-          <li><img src="./assets/jne.png"></li>
+      <li><img src="./assets/wardah.png"></li>
+      <li><img src="./assets/teabreak.png"></li>
+      <li><img src="./assets/jne.png"></li>
     </div>
-  <h3 class="col-md-6 mx-auto text-center grand-theme-width-limiter px-2 mb-2">Collab With Us!</h3>
-  <div class="collab d-flex flex-row justify-content-center" style="padding-bottom: 184px;">
-    <div class="p-2 text-center">
-      <p>Sponsorship</p>
-      <p class="contactperson">Poppy</p>
-      <p class="contactperson">+62 878-6460-5275</p>
+    <h3 class="col-md-6 mx-auto text-center grand-theme-width-limiter px-2 mb-2">Collab With Us!</h3>
+    <div class="collab d-flex flex-row justify-content-center" style="padding-bottom: 184px;">
+      <div class="p-2 text-center">
+        <p>Sponsorship</p>
+        <p class="contactperson">Poppy</p>
+        <p class="contactperson">+62 878-6460-5275</p>
+      </div>
+      <div class="p-2 text-center">
+        <p>Partnership</p>
+        <p class="contactperson">Fadly</p>
+        <p class="contactperson">+62 812-9473-5772</p>
+      </div>
     </div>
-    <div class="p-2 text-center">
-      <p>Partnership</p>
-      <p class="contactperson">Fadly</p>
-      <p class="contactperson">+62 812-9473-5772</p>
-    </div>
-  </div>
-</section>
+  </section>
 
   <footer class="d-flex justify-content-between py-5 px-5 align-items-center home-footer">
     <div>
