@@ -24,7 +24,7 @@ parse_str($_SERVER['QUERY_STRING'], $params);
     <h1 class="mb-2 h1-blue">
       OUR COUNCIL
     </h1>
-    <p>
+    <p class="text-center">
       Check Out Our Council Below to Choose Which One Best Fits you
     </p>
 
@@ -57,7 +57,7 @@ parse_str($_SERVER['QUERY_STRING'], $params);
     <a href="./register.php" role="button" class="btn d-flex mx-auto main-button">
       Register Now
     </a>
-    <div class="council-detail py-5 px-5 mx-4">
+    <div class="council-detail py-4 py-sm-5 px-3 px-sm-5 mx-4">
       <div class="text-end">
         <button type="button" class="btn-close ms-auto council-close" aria-label="Close"></button>
       </div>

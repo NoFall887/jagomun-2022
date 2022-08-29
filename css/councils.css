@@ -88,10 +88,11 @@ body {background-color: var(--dark-blue-02);}
   position: absolute;
   top: 0;
   max-width: 1200px;
+  overflow-y: scroll;
   height: 100%;
   visibility:hidden;
-    opacity:0;
-    transition:visibility 0.3s linear,opacity 0.3s linear;
+  opacity:0;
+  transition:visibility 0.3s linear,opacity 0.3s linear;
 }
 
 .council-detail p {
