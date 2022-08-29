@@ -264,7 +264,7 @@ h3 {
 .sponsor h3{font-size: 40px;}
 
 .sponsorwrap {
-	width:100%;
+	width:100vw;
 	align-items:center;
 	display: flex;
 	margin:0 auto 0 auto;
@@ -289,7 +289,7 @@ h3 {
   @media (max-width: 1000px) {
 	.sponsorwrap {
 	 	flex-direction: column;
-		width:400px;
+		
 	}
   }
   
@@ -314,7 +314,9 @@ h3 {
   width:100%;
   display:flex;
   align-items:center;
+	justify-content: center;
   max-width:1200px;
+	flex-wrap: wrap;
 }
 
 .tile {
@@ -391,9 +393,8 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   opacity:1;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .wrap {
-   flex-direction: column;
-    width:400px;
+		gap: 13%;
   }
 }
