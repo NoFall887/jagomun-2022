@@ -237,6 +237,13 @@ h3 {
 
 .faq h3{font-size: 40px;}
 
+/* ACCORDION */
+.accordion-body {
+	background-color: var(--light-blue-01);
+	color: black;
+	font-family:  'EB Garamond', serif;
+}
+
 .accordion button { 
 	font-family:  'EB Garamond', serif;
 	font-weight: 500;
@@ -254,9 +261,9 @@ h3 {
 	background-color:var(--light-blue-01);
 }
 
-@media (max-width: 1000px) {
-	.accordion-item {max-width: 420px;;}
-  }
+@media (max-width: 1300px) {
+	.accordion-item {margin: 24px 18px;}
+}
 
 
 /* Sponsors */
