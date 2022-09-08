@@ -109,7 +109,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <fieldset>
         <legend class="mb-1">Council and Country Preference</legend>
         <p class="disclaimer">*Disclaimer: UNEP and EU as the council preference will be held by online. UNSC and WHO as the council preference will be held by offline</p>
-
+        <div class="form-floating mb-4">
+          <select class="form-select" aria-label="online-offline" id="online-offline" name="online-offline" required>
+            <option value="" selected disabled>Options online/offline</option>
+            <option value="online">Online</option>
+            <option value="offline">Offline</option>
+          </select>
+          <label for="online-offline">Choose how you will attend the event</label>
+        </div>
         <div class="form-floating mb-4">
           <select class="form-select" aria-label="First Council Preference" id="firstCouncil" name="firstCouncil" required>
             <option value="" selected disabled>Select first council preference</option>
