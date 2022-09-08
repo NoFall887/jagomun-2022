@@ -110,12 +110,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <legend class="mb-1">Council and Country Preference</legend>
         <p class="disclaimer">*Disclaimer: UNEP and EU as the council preference will be held by online. UNSC and WHO as the council preference will be held by offline</p>
         <div class="form-floating mb-4">
-          <select class="form-select" aria-label="online-offline" id="online-offline" name="online-offline" required>
+          <select class="form-select" aria-label="attendance" id="attendance" name="attendance" required>
             <option value="" selected disabled>Options online/offline</option>
             <option value="online">Online</option>
             <option value="offline">Offline</option>
           </select>
-          <label for="online-offline">Choose how you will attend the event</label>
+          <label for="attendance">Choose how you will attend the event</label>
         </div>
         <div class="form-floating mb-4">
           <select class="form-select" aria-label="First Council Preference" id="firstCouncil" name="firstCouncil" required>
@@ -184,6 +184,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </div>
 
   <?php
+  require "./components/script.php";
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
   ?>
     <script type="text/javascript">
@@ -202,10 +203,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       document.getElementById("firstCouncil").value = "<?php echo isset($_POST["firstCouncil"]) ? $_POST["firstCouncil"] : '' ?>"
       document.getElementById("secondCouncil").value = "<?php echo isset($_POST["secondCouncil"]) ? $_POST["secondCouncil"] : '' ?>"
       document.getElementById("countryCode").value = "<?php echo isset($_POST["countryCode"]) ? $_POST["countryCode"] : '' ?>"
+      document.getElementById("attendance").value = "<?php echo isset($_POST["attendance"]) ? $_POST["attendance"] : '' ?>"
     </script>
   <?php
   };
-  require "./components/script.php"; ?>
+  ?>
 </body>
 
 </html>

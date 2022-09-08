@@ -33,6 +33,7 @@ function insertData()
       date_of_birth_co_delegate,
       gender_co_delegate,
       email_co_delegate,
+      attendance,
       first_council,
       first_country,
       first_reason,
@@ -41,7 +42,7 @@ function insertData()
       second_reason,
       experience,
       health_condition
-    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
+    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
 
     $count = 0;
     $values = [];
@@ -69,7 +70,7 @@ function insertData()
     $count = 0;
     //
     // use exec() because no results are returned
-    $statement->bind_param("sssssssssssssssssssss", ...$values);
+    $statement->bind_param("ssssssssssssssssssssss", ...$values);
     $statement->execute();
     $statement->close();
     return array("status" => "success", "message" => "Registration success!");

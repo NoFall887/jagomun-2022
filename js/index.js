@@ -51,7 +51,7 @@ if (document.querySelector(".countdown") !== null) {
 }
 
 // online / offline
-const onlineOfflineSelect = document.querySelector("#online-offline");
+const onlineOfflineSelect = document.querySelector("#attendance");
 const CouncilSelects = [
   document.querySelector("#firstCouncil"),
   document.querySelector("#secondCouncil"),
