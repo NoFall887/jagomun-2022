@@ -405,3 +405,49 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 		gap: 13%;
   }
 }
+
+/* ABOUT US PAGE */
+.aboutus {padding-top: 168px;}
+.aboutus h1 {font-size: 40px;}
+.aboutus-container h3 {color: var(--light-blue-02);}
+
+#mun {
+	aspect-ratio: 16/9;
+	width: 100%;
+}
+
+/* Jember */
+.jbr {
+	width:100vw;
+	align-items:center;
+	display: flex;
+	margin:0 auto 0 auto;
+	max-width:1200px;
+	justify-content: center;
+	padding-bottom: 48px;
+}
+
+.jbr li {
+	position:relative;
+	display: block;
+	margin: 0;
+	padding: 12px;
+	list-style: none;
+	gap: 24px;
+	flex: 1;
+}
+
+.jbr li img {
+	width: 100%;
+}
+
+  @media (max-width: 1000px) {
+	.jbr {
+	 	flex-direction: column;
+		
+	}
+  }
+  
+  @media (max-width: 1000px) {
+	.jbr li {margin-bottom: 24PX;}
+  }
