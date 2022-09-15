@@ -108,7 +108,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       <fieldset>
         <legend class="mb-1">Council and Country Preference</legend>
-        <p class="disclaimer">*Disclaimer: UNEP and EU as the council preference will be held by online. UNSC and WHO as the council preference will be held by offline</p>
+        <p class="disclaimer">*Disclaimer: UNEP and EU as the council preference will be held by online. UNSC and WHO as the council preference will be held by offline. 
+          More information about Country Matrix <a href="https://docs.google.com/spreadsheets/d/1-TSgVVfXhHRry9xDFfHtsTgiSGF0Pz95ABycRFOvlkY/edit?usp=sharing">click here</a>.</p>
         <div class="form-floating mb-4">
           <select class="form-select" aria-label="attendance" id="attendance" name="attendance" required>
             <option value="" selected disabled>Options online/offline</option>
