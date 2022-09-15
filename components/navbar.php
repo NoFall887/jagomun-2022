@@ -25,10 +25,10 @@
             <a class="dropdown-item" href="https://bit.ly/DelegationRegistrationJAGOMUN2022">Delegation</a>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="effect" href="#about">About</a>
+        <li class="nav-item <?php echo $_SERVER['SCRIPT_NAME'] === "/aboutus.php" ? "active" : "" ?>">
+          <a class="nav-link" data-toggle="effect" href="/aboutus.php">About</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item <?php echo $_SERVER['SCRIPT_NAME'] === "/contact.php" ? "active" : "" ?>">
           <a class="nav-link" href="/contact.php">Contact</a>
         </li>
         <li class="nav-item">

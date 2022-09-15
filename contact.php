@@ -30,24 +30,33 @@
           <p>Delegate relations</p>
           <p>delegaterelations.jagomun@gmail.com</p>
         </div>
-        <div class="d-flex flex-column contact-item-container">
+        <div class="contact-item-container collab-with-us">
           <h3>Collab With Us!</h3>
-          <div class="p-2 text-center">
-            <p>Sponsorship</p>
-            <p class="contactperson">Poppy</p>
-            <p class="contactperson">+62 878-6460-5275</p>
-          </div>
-          <div class="p-2 text-center">
-            <p>Partnership</p>
-            <p class="contactperson">Fadly</p>
-            <p class="contactperson">+62 812-9473-5772</p>
+          <div class="d-flex">
+            <div class="p-2 text-center me-3">
+              <p>Sponsorship</p>
+              <p>Poppy</p>
+              <p>(+62 878-6460-5275)</p>
+            </div>
+            <div class="p-2 text-center">
+              <p>Partnership</p>
+              <p>Fadly</p>
+              <p>(+62 812-9473-5772)</p>
+            </div>
           </div>
         </div>
-
       </div>
     </div>
-
+    <div class="contact-bottom">
+      <h2 class="h1-blue">sponsors & media Partners</h2>
+      <ul class="d-flex justify-content-center m-0 p-0 flex-wrap">
+        <li><img src="./assets/wardah.png"></li>
+        <li><img src="./assets/teabreak.png"></li>
+        <li><img src="./assets/jne.png"></li>
+      </ul>
+    </div>
   </div>
+  <?php include "./components/footer.php" ?>
   <?php require "./components/script.php" ?>
 </body>
 

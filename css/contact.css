@@ -1,17 +1,22 @@
 .contact-top {
   margin-top: 148px;
+  padding-bottom: 264px;
+  position: relative;
   color: white;
 }
 .contact-top>p {
   font-size: 28px;
   max-width: 637px;
   margin: auto;
-  margin-bottom: 154px;
   position: relative;
 }
+.collab-with-us {
+  width: max-content;
+}
 .contact-item-container {
-  padding: 97px 84px;
-  background-color: var(--light-blue-02);
+  width: 100%;
+  padding: 84px 49px;
+  background-color: var(--light-blue-01);
   color: black;
 }
 .contact-item-container div p:first-child{
@@ -23,5 +28,57 @@
   position: absolute;
   width: fit-content;
   left: 50%;
+  bottom: -50%;
   translate: -50%;
+}
+
+.contact-bottom {
+  background-color: white;
+  padding-top: 300px;
+  padding-bottom: 124px;
+}
+.contact-bottom ul {
+  list-style: none;
+  width: 100%;
+}
+.contact-bottom ul img {
+  width: 100%;
+}
+.contact-bottom h2 {
+  font-weight: 600 !important;
+	font-family: 'shandora_demoregular', serif;
+	font-size: 52px;
+  margin-bottom: 52px;
+}
+
+@media (max-width: 930px) {
+  .contact-top {
+    padding-bottom: 382px;
+  }
+  .contact-bottom {
+    padding-top: 332px;
+  }
+	.contact-detail {
+    flex-direction: column;
+  }
+  .contact-item-container {
+    padding: 64px;
+  }
+}
+@media (max-width: 530px) {
+  .contact-item-container {
+    padding: 64px 18px;
+  }
+  .contact-top {
+    padding-bottom: 464px;
+  }
+  .contact-bottom {
+    padding-top: 364px;
+  }
+  .contact-detail {
+    width: 95%;
+  }
+  .collab-with-us>div {
+    flex-direction: column;
+  }
 }
