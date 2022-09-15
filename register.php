@@ -182,7 +182,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     </form>
   </div>
-
+  <script src="./js/form.js"></script>
   <?php
   require "./components/script.php";
   if ($_SERVER["REQUEST_METHOD"] == "POST") {

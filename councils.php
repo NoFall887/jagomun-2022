@@ -62,7 +62,7 @@ parse_str($_SERVER['QUERY_STRING'], $params);
         <button type="button" class="btn-close ms-auto council-close" aria-label="Close"></button>
       </div>
       <p class="delegation text-center"></p>
-      <h2 class="council-name text-center h1-orange mb-3">
+      <h2 class="council-name text-center mb-3">
 
       </h2>
       <div class="text-center mb-5">

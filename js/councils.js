@@ -46,7 +46,7 @@ const councilsData = {
 };
 // add event listener to each button
 const councilCards = document.querySelectorAll(".councils-card-content");
-console.log(councilCards);
+
 councilCards.forEach((e) => {
   e.addEventListener("click", () => {
     showCouncilDetail(e.value);

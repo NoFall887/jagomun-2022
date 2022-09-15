@@ -1,0 +1,27 @@
+.contact-top {
+  margin-top: 148px;
+  color: white;
+}
+.contact-top>p {
+  font-size: 28px;
+  max-width: 637px;
+  margin: auto;
+  margin-bottom: 154px;
+  position: relative;
+}
+.contact-item-container {
+  padding: 97px 84px;
+  background-color: var(--light-blue-02);
+  color: black;
+}
+.contact-item-container div p:first-child{
+  font-weight: 600;
+}
+
+.contact-detail {
+  gap: 24px;
+  position: absolute;
+  width: fit-content;
+  left: 50%;
+  translate: -50%;
+}
