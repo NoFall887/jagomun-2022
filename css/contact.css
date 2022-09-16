@@ -5,7 +5,7 @@
   color: white;
 }
 .contact-top>p {
-  font-size: 28px;
+  font-size: 24px;
   max-width: 637px;
   margin: auto;
   position: relative;
@@ -44,10 +44,8 @@
 .contact-bottom ul img {
   width: 100%;
 }
-.contact-bottom h2 {
+.contact-bottom h3 {
   font-weight: 600 !important;
-	font-family: 'shandora_demoregular', serif;
-	font-size: 52px;
   margin-bottom: 52px;
 }
 

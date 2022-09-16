@@ -48,7 +48,7 @@
       </div>
     </div>
     <div class="contact-bottom">
-      <h2 class="h1-blue">sponsors & media Partners</h2>
+      <h3 class="h1-blue">Past Sponsors</h3>
       <ul class="d-flex justify-content-center m-0 p-0 flex-wrap">
         <li><img src="./assets/wardah.png"></li>
         <li><img src="./assets/teabreak.png"></li>
