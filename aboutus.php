@@ -20,7 +20,7 @@
 
   <section class="aboutus">
     <h1 class="h1-blue col-md-6 mx-auto text-center grand-theme-width-limiter px-4">ABOUT US</h1>
-  </section>  
+  </section>
 
   <section class="documentation">
     <div class="container-fluid px-5 documentation-width-limiter">
@@ -56,10 +56,10 @@
       <p class="grand-theme-width-limiter mx-auto col-md-10" style="padding-bottom: 80px;">
         Jember is a city located in East Java's province, about 95 miles from Surabaya. It is known as Mount Argopuro. A railway link it to Banyuwangi. It is also a center of trade for various agricultural commodities, including peanuts and sugar. Jember is also a center of crafts. Jember has a unique culture known as “Pandalungan”. This is a merged version of Maduranese and Javanese culture. JFC is a yearly event that is held in Jember. It is regarded as one of the biggest events in the world. There are many attractions in Jember such as the beaches, the temples, the pool, the waterfalls, and the animal conservation areas.</p>
       <div class="jbr">
-        <li><img src="./assets/jbr1.png"></img></li>
-        <li><img src="./assets/jbr2.png"></img></li>
-        <li><img src="./assets/jbr3.png"></img></li>
-      </div> 
+        <li><img src="./assets/jbr1-min.png"></img></li>
+        <li><img src="./assets/jbr2-min.png"></img></li>
+        <li><img src="./assets/jbr3-min.png"></img></li>
+      </div>
     </div>
   </section>
 
