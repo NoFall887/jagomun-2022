@@ -6,6 +6,8 @@
 @import url("./councils.css");
 @import url("./blueFooter.css");
 @import url("./contact.css");
+@import url("./store.css");
+
 :root {
 	--light-blue-01: #E4F3FF;
 	--light-blue-02: #B0D6F5;
