@@ -13,6 +13,9 @@
 .collab-with-us {
   width: max-content;
 }
+.collab-with-us div div p:last-child{
+  white-space: nowrap;
+}
 .contact-item-container {
   width: 100%;
   padding: 84px 49px;
