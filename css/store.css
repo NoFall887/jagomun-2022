@@ -99,6 +99,16 @@ h4 {
   opacity: 60%;
 }
 
+.productdesc p{
+  color: #fff;
+}
+
+.productdesc a{
+  color: inherit; /* blue colors for links too */
+}
+
+.productdesc a:hover {color: var(--light-blue-02);}
+
 .book-content {
   padding: 0 20px;
   color: #ffffff;
@@ -113,11 +123,6 @@ label {
   vertical-align: middle;
 }
 
-h1 {
-  font-size: 0.5em;
-  margin: 10px;
-}
-
 .book-see {
   font-family:  'EB Garamond', serif;
   text-align: center;
@@ -128,6 +133,12 @@ h1 {
   font-size: 16px;
   width: 160px;
 }
+
+.book-see a{ 
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
 .book-see:hover {
   color: #0D1D23;
 }
