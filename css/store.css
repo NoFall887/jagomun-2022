@@ -38,6 +38,7 @@ body {
   padding: 25px;
   width: 50%;
   height: 300px;
+  /* height: auto; */
   margin-right: 4px;
   background-color: #EDF5E0;
   overflow: visible;
@@ -72,6 +73,7 @@ body {
   width: 100%;
   flex: 6;
   position: relative;
+  max-width: 314px;
 }
 
 .book-photo {
@@ -174,6 +176,10 @@ label {
 @media (max-width: 575px) {
   .book-cell {
     width: 100%;
+    height: auto;
+  }
+  .book-photo {
+    position: relative;
   }
 }
 @media (max-width: 458px) {
