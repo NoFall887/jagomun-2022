@@ -95,6 +95,16 @@
             <div class="book-see ms-auto mt-auto"><a href="https://www.tokopedia.com/achierain/set-sticker-jagomun-2022-x-achiera-inivitative?extParam=whid%3D12071860">Order Now</a></div>
           </div>
         </div>
+        <div class="book-cell d-flex justify-content-between">
+          <div class="book-img">
+            <img src="./assets/pin.png" alt="pin" class="book-photo">
+          </div>
+          <div class="book-content d-flex flex-column">
+            <h4 class="book-title">Pin</h4>
+            <p class="book-author">IDR 5.000</p>
+            <div class="book-see ms-auto mt-auto"><a href="https://www.tokopedia.com/achierain/pin-jagomun-2022-x-achiera-inivitative-orange?extParam=whid%3D12071860">Order Now</a></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
