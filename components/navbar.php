@@ -31,8 +31,8 @@
         <li class="nav-item <?php echo $_SERVER['SCRIPT_NAME'] === "/contact.php" ? "active" : "" ?>">
           <a class="nav-link" href="/contact.php">Contact</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#store">Store</a>
+        <li class="nav-item <?php echo $_SERVER['SCRIPT_NAME'] === "/store.php" ? "active" : "" ?>">
+          <a class="nav-link" href="/store.php">Store</a>
         </li>
       </ul>
 
