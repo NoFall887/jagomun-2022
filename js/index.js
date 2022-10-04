@@ -1,7 +1,6 @@
 // NAVBAR SHOW / HIDE
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
-  console.log(window.scrollY);
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos >= currentScrollPos) {
     document.getElementById("navbar").style.top = "0";

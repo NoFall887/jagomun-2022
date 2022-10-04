@@ -127,14 +127,6 @@ h4 {
   overflow: hidden;
 }
 
-fieldset,
-label {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .book-see {
   font-family:  'EB Garamond', serif;
   text-align: center;

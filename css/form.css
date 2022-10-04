@@ -2,6 +2,10 @@ form {
   text-align: left;
 }
 
+fieldset {
+  width: 100%;
+}
+
 input,textarea,select{
   border: 1px solid #EAC497 !important;
   border-radius: 0 !important;
