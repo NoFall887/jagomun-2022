@@ -26,12 +26,8 @@ body {
 
 .book-slide {
   width: 100%;
-  overflow: visible;
-}
-
-/* .book {
-  background: #fff; 
-} */
+  overflow: hidden;
+} 
 
 .book-cell {
   position: relative;
@@ -66,9 +62,6 @@ body {
   right: 15px;
 }
 
-.flickity-viewport {
-  overflow: visible;
-}
 .book-img {
   width: 100%;
   flex: 6;
