@@ -108,7 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       <fieldset>
         <legend class="mb-1">Council and Country Preference</legend>
-        <p class="disclaimer">*Disclaimer: UNEP and EU as the council preference will be held by online. UNSC and WHO as the council preference will be held by offline. 
+        <p class="disclaimer">*Disclaimer: UNEP and EU as the council preference will be held by online. UNSC and WHO as the council preference will be held by offline.
           More information about Country Matrix <a href="https://docs.google.com/spreadsheets/d/1-TSgVVfXhHRry9xDFfHtsTgiSGF0Pz95ABycRFOvlkY/edit?usp=sharing">click here</a>.</p>
         <div class="form-floating mb-4">
           <select class="form-select" aria-label="attendance" id="attendance" name="attendance" required>
@@ -177,8 +177,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <label for="healthCondition">Delegation's Health Condition and Dietary Restriction</label>
           </div>
         </fieldset>
+        <fieldset>
+          <legend>
+            Referral Code
+          </legend>
+          <p class="disclaimer">Get special price using referral code
+          </p>
+          <div class="form-floating mb-4">
+            <input type="text" class="form-control" placeholder="Referral code (if any)" id="referralCode" name="referralCode" required><?php echo isset($_POST['referralCode']) ? htmlspecialchars($_POST['referralCode']) : '' ?></input>
+            <label for="referralCode">Referral code (if any)</label>
+          </div>
+        </fieldset>
         <div class="text-center mb-4">
-          <button type="submit" class="main-button">Register</button>
+          <button type="submit" class="btn main-button">Register</button>
         </div>
 
     </form>

@@ -9,11 +9,9 @@ const onlineOfflineCouncil = {
   online: [
     "UNEP (United Nations Environment Programme)",
     "EU (European Union)",
-  ],
-  offline: [
     "UNSC (United Nations Security Council)",
-    "WHO (World Health Organization)",
   ],
+  offline: ["WHO (World Health Organization)"],
 };
 
 let lastOnlineOffline = "";

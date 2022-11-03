@@ -41,8 +41,9 @@ function insertData()
       second_country,
       second_reason,
       experience,
-      health_condition
-    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
+      health_condition,
+      referral_code
+    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
 
     $count = 0;
     $values = [];
@@ -70,7 +71,7 @@ function insertData()
     $count = 0;
     //
     // use exec() because no results are returned
-    $statement->bind_param("ssssssssssssssssssssss", ...$values);
+    $statement->bind_param("sssssssssssssssssssssss", ...$values);
     $statement->execute();
     $statement->close();
     return array("status" => "success", "message" => "Registration success!");
